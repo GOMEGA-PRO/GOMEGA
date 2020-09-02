@@ -25,6 +25,7 @@
     "homepage": "https://github.com/GOMEGA-PRO/GOMEGA#readme",
     "devDependencies": {
         "husky": "^4.2.5",
+        "lite-server": "^2.5.4",
         "prettier": "^2.1.1",
         "pretty-quick": "^3.0.0"
     }
