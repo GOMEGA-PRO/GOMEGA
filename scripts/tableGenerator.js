@@ -1,4 +1,4 @@
-const phone = '+919908036660';
+const phone = '+917093011926';
 // Todo : Complete this object to get all the items
 const inventory = [
     {
@@ -363,8 +363,8 @@ const inventory = [
     },
     {
         name: 'CHANA DAL',
-        q1: '4.4000000000000004',
-        q2: '8.8000000000000007',
+        q1: '4.40',
+        q2: '8.80',
         q3: '22',
         q4: '44',
         q5: '88',
@@ -493,8 +493,8 @@ const inventory = [
     },
     {
         name: 'IDLY RAVA',
-        q1: '1.9000000000000001',
-        q2: '3.8000000000000003',
+        q1: '1.90',
+        q2: '3.80',
         q3: '9.5',
         q4: '19',
         q5: '38',
@@ -593,8 +593,8 @@ const inventory = [
     },
     {
         name: 'MAIDA',
-        q1: '2.2000000000000002',
-        q2: '4.4000000000000004',
+        q1: '2.20',
+        q2: '4.40',
         q3: '11',
         q4: '22',
         q5: '44',
@@ -823,8 +823,8 @@ const inventory = [
     },
     {
         name: 'RED CHANA',
-        q1: '3.9000000000000004',
-        q2: '7.8000000000000007',
+        q1: '3.90',
+        q2: '7.80',
         q3: '19.5',
         q4: '39',
         q5: '78',
@@ -863,8 +863,8 @@ const inventory = [
     },
     {
         name: 'RICE AMBAMORE',
-        q1: '4.8000000000000007',
-        q2: '9.6000000000000014',
+        q1: '4.80',
+        q2: '9.60',
         q3: '24',
         q4: '48',
         q5: '96',
@@ -963,8 +963,8 @@ const inventory = [
     },
     {
         name: 'SUGAR',
-        q1: '1.9500000000000002',
-        q2: '3.9000000000000004',
+        q1: '1.95',
+        q2: '3.90',
         q3: '9.75',
         q4: '19.5',
         q5: '39',
@@ -1013,8 +1013,8 @@ const inventory = [
     },
     {
         name: 'TOOR DAL',
-        q1: '4.9000000000000004',
-        q2: '9.8000000000000007',
+        q1: '4.90',
+        q2: '9.80',
         q3: '24.5',
         q4: '49',
         q5: '98',
@@ -1033,8 +1033,8 @@ const inventory = [
     },
     {
         name: 'UPMA RAVA(BOMBAY RAVA)',
-        q1: '2.2000000000000002',
-        q2: '4.4000000000000004',
+        q1: '2.20',
+        q2: '4.40',
         q3: '11',
         q4: '22',
         q5: '44',
@@ -1493,7 +1493,6 @@ function generateTable(type) {
 				</div>
 			</td>`;
         });
-
         tbody.appendChild(row);
     });
 }
@@ -1510,8 +1509,6 @@ function generateTableHeaders() {
             tr.appendChild(th);
         });
         header.appendChild(tr);
-
-        debugger;
     });
 }
 
