@@ -1,0 +1,31 @@
+{
+    "name": "gomega-master",
+    "version": "1.0.0",
+    "description": "go-omega",
+    "main": "index.html",
+    "scripts": {
+        "test": "npm start",
+        "prettify": "pretty-quick --staged",
+        "dev": "lite-server"
+    },
+    "husky": {
+        "hooks": {
+            "pre-commit": "npm run prettify"
+        }
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/GOMEGA-PRO/GOMEGA.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/GOMEGA-PRO/GOMEGA/issues"
+    },
+    "homepage": "https://github.com/GOMEGA-PRO/GOMEGA#readme",
+    "devDependencies": {
+        "husky": "^4.2.5",
+        "prettier": "^2.1.1",
+        "pretty-quick": "^3.0.0"
+    }
+}
