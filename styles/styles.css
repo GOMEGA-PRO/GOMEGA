@@ -1,15 +1,23 @@
 @media (min-width: 768px) {
-    .h-md-100 {height: 100vh;}
+    .h-md-100 {
+        height: 100vh;
+    }
 }
-.btn-round { border-radius: 30px;}
-.bg-indigo {background: indigo;}
-.text-cyan { color: #35bdff;}
+.btn-round {
+    border-radius: 30px;
+}
+.bg-indigo {
+    background: indigo;
+}
+.text-cyan {
+    color: #35bdff;
+}
 
 .bg-right {
-    background:#285A84;
+    background: #285a84;
 }
 .bg-left {
-    background: #C2EF7E;
+    background: #c2ef7e;
 }
 .expanded-menu {
     justify-content: flex-end;
@@ -17,11 +25,11 @@
 .menu-item {
     font-size: 20px;
     margin-right: 15px;
-    font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif;
+    font-family: Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif;
     padding: 20px !important;
     color: white !important;
 }
-.container{
+.container {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -30,15 +38,35 @@
 
 .welcome {
     font-size: 36px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
 }
 .welcome-text {
-    margin-bottom: 40px;
+    margin-bottom: 50px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 10px;
 }
 .font {
-    font-size: 24px;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
 }
 .no-shadow {
     box-shadow: none;
 }
-.dropdown-content a:hover {background-color: #289cac;}
-
+.dropdown-content a:hover {
+    background-color: #289cac;
+}
+.fa {
+    padding: 5px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 70%;
+    background-color: white;
+}
+.cs {
+    padding: 10px;
+    font-family: 'Krona One', sans-serif;
+    color: #ffffff;
+    font-size: 30px;
+}

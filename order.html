@@ -141,28 +141,22 @@
                                     aria-label="total"
                                 />
                             </div>
-                            <form
-                                class="form-inline my-2 my-lg-0"
-                                style="padding-left: 5%"
-                            >
-                                <input
-                                    class="form-control mr-sm-2"
-                                    type="search"
-                                    placeholder="Search"
-                                    aria-label="Search"
-                                />
-                                <button
-                                    class="btn btn-outline-success my-2 my-sm-0"
-                                    type="submit"
-                                >
-                                    Search
-                                </button>
-                            </form>
                         </div>
                     </nav>
                 </header>
             </div>
         </div>
+        <form class="form-inline my-2 my-lg-0" style="padding-left: 5%">
+            <input
+                class="form-control mr-sm-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+            />
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+                Search
+            </button>
+        </form>
         <div class="container" style="padding-top: 10%">
             <div id="accordion">
                 <div class="card">
@@ -177,7 +171,7 @@
                     </div>
                     <div
                         id="collapseOne"
-                        class="collapse show"
+                        class="collapse"
                         data-parent="#accordion"
                     >
                         <div class="card-body" style="overflow-x: auto">
@@ -241,7 +235,12 @@
                     </div>
                 </div>
             </div>
-            <div style="padding-top: 3%; padding-left: 38%">
+        </div>
+        <div
+            class="card-body"
+            style="padding-top: 0%; padding-left: 15%; position: relative"
+        >
+            <table class="tg table table-bordered">
                 <button
                     class="my-float float button"
                     style="background-color: #25d366"
@@ -249,7 +248,7 @@
                 >
                     checkout to whatsapp <i class="fa fa-whatsapp fa-x"></i>
                 </button>
-            </div>
+            </table>
         </div>
         <script src="scripts/tableGenerator.js"></script>
     </body>
