@@ -1,7 +1,14 @@
-.dropdown-content a:hover {background-color: #7dc919;}
+.dropdown-content a:hover {
+    background-color: #a4e248;
+}
 .menu-item {
-    font-size: 20px;
-    margin-right: 15px;
-    font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif;
-    color: #285A84 !important;
+    font-size: 16px;
+    font-size: 16px;
+    margin-right: 8px;
+    font-family: Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif;
+    padding: 20px !important;
+    color: #285a84 !important;
+}
+.hover :hover {
+    background-color: #a4e248;
 }
