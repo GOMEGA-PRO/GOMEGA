@@ -1444,7 +1444,7 @@ const inventory = [
 ];
 const quantities = {
     // q1: '50g',
-    // q2: '100g',
+    q2: '100g',
     q3: '250g',
     q4: '500g',
     q5: '1000g'
