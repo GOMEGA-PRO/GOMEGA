@@ -1,18 +1,52 @@
-.float {
-    position: fixed;
-    background-color: #25d366;
-    color: #fff;
-    text-align: center;
-    font-size: 18px;
-    border-radius: 5px;
-}
-
 .button {
     border: none;
     color: white;
     padding: 9px 18px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    cursor: pointer;
+    background-color: #25d366;
+    font-size: 18px;
+    border-radius: 5px;
+}
+.fa-whatsapp {
+    margin-left: 10px;
+}
+header {
+    height: 100px;
+}
+
+.tg {
+    border-collapse: collapse;
+    border-color: #ccc;
+    margin-left: auto;
+    margin-right: 10px;
+}
+.tg th {
+    background-color: #285a84;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    overflow: hidden;
+    padding: 20px 20px;
+    word-break: normal;
+    border: solid 2px black;
+    font-family: 'Arial Black', Gadget, sans-serif !important;
+    vertical-align: top;
+}
+
+.table-data-item {
+    border: solid 2px black;
+    background: #c2ef7e;
+    font-family: 'Courier New', Courier, monospace !important;
+    font-weight: bold;
+    vertical-align: top;
+}
+nav {
+    box-shadow: none;
+    background-color: #c2ef7e;
+}
+.card-body {
+    overflow-x: auto;
+}
+
+.table-bordered td {
+    border: 2px solid black;
 }

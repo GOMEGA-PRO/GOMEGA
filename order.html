@@ -3,12 +3,13 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Document</title>
-        <link rel="stylesheet" href="styles/order.css" />
+        <title>Order</title>
         <link
             rel="stylesheet"
             href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
         />
+        <link rel="stylesheet" href="styles/order.css" />
+
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
@@ -19,118 +20,92 @@
         />
     </head>
     <body>
-        <div class="container">
-            <div class="menu">
-                <header>
-                    <nav
-                        class="navbar navbar-expand-lg fixed-top navbar-light no-shadow"
-                        style="box-shadow: none; background-color: #c2ef7e"
+        <div class="menu">
+            <header>
+                <nav
+                    class="navbar navbar-expand-lg navbar-light no-shadow"
+                    style="box-shadow: none; background-color: #c2ef7e"
+                >
+                    <button
+                        type="button"
+                        class="navbar-toggler"
+                        data-toggle="collapse"
+                        data-target="#navbarCollapse"
                     >
-                        <button
-                            type="button"
-                            class="navbar-toggler"
-                            data-toggle="collapse"
-                            data-target="#navbarCollapse"
-                        >
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
 
-                        <div
-                            class="collapse navbar-collapse expanded-menu"
-                            id="navbarCollapse"
-                        >
-                            <ul class="navbar-nav" style="padding-left: 6%">
-                                <a class="navbar-brand" href="index.html">
-                                    <img
-                                        src="assets/original-logo.png"
-                                        width="80"
-                                        height="60"
-                                        alt=""
-                                    />
+                    <div
+                        class="collapse navbar-collapse expanded-menu"
+                        id="navbarCollapse"
+                    >
+                        <ul class="navbar-nav" style="padding-left: 6%">
+                            <a class="navbar-brand" href="index.html">
+                                <img
+                                    src="assets/original-logo.png"
+                                    width="80"
+                                    height="60"
+                                    alt=""
+                                />
+                            </a>
+                            <li class="nav-item" style="padding-top: 3%">
+                                <a
+                                    class="nav-link menu-item"
+                                    style="color: #285a84"
+                                    href="index.html"
+                                    ><b>HOME</b></a
+                                >
+                            </li>
+                            <li class="nav-item" style="padding-top: 3%">
+                                <a
+                                    class="nav-link menu-item"
+                                    style="color: #285a84"
+                                    href="#"
+                                    ><b>ABOUT US</b></a
+                                >
+                            </li>
+                            <li
+                                class="nav-item dropdown active"
+                                style="padding-top: 3%"
+                            >
+                                <a
+                                    class="nav-link dropdown-toggle menu-item"
+                                    style="color: #285a84"
+                                    href="#"
+                                    id="navbarDropdownMenuLink"
+                                    role="button"
+                                    data-toggle="dropdown"
+                                    aria-haspopup="true"
+                                    aria-expanded="false"
+                                >
+                                    <b>OUR PRODUCTS</b>
                                 </a>
-                                <li class="nav-item" style="padding-top: 3%">
-                                    <a
-                                        class="nav-link menu-item"
-                                        style="color: #285a84"
-                                        href="index.html"
-                                        ><b>HOME</b></a
-                                    >
-                                </li>
-                                <li class="nav-item" style="padding-top: 3%">
-                                    <a
-                                        class="nav-link menu-item"
-                                        style="color: #285a84"
-                                        href="#"
-                                        ><b>ABOUT US</b></a
-                                    >
-                                </li>
-                                <li
-                                    class="nav-item dropdown active"
-                                    style="padding-top: 3%"
+                                <div
+                                    class="dropdown-menu dropdown-content"
+                                    aria-labelledby="navbarDropdownMenuLink"
+                                    data-dropdown-in="fadeIn"
+                                    data-dropdown-out="fadeOut"
+                                    style="background-color: #c2ef7e"
                                 >
                                     <a
-                                        class="nav-link dropdown-toggle menu-item"
-                                        style="color: #285a84"
-                                        href="#"
-                                        id="navbarDropdownMenuLink"
-                                        role="button"
-                                        data-toggle="dropdown"
-                                        aria-haspopup="true"
-                                        aria-expanded="false"
+                                        class="dropdown-item menu-item"
+                                        style="font-size: 110%; color: #285a84"
+                                        href="products/dates.html"
+                                        ><b>DATES</b></a
                                     >
-                                        <b>OUR PRODUCTS</b>
-                                    </a>
-                                    <div
-                                        class="dropdown-menu dropdown-content"
-                                        aria-labelledby="navbarDropdownMenuLink"
-                                        data-dropdown-in="fadeIn"
-                                        data-dropdown-out="fadeOut"
-                                        style="background-color: #c2ef7e"
-                                    >
-                                        <a
-                                            class="dropdown-item menu-item"
-                                            style="
-                                                font-size: 110%;
-                                                color: #285a84;
-                                            "
-                                            href="products/dates.html"
-                                            ><b>DATES</b></a
-                                        >
-                                        <a
-                                            class="dropdown-item menu-item"
-                                            style="
-                                                font-size: 110%;
-                                                color: #285a84;
-                                            "
-                                            href="products/chocolates.html"
-                                            ><b>CHOCOLATES</b></a
-                                        >
-                                        <a
-                                            class="dropdown-item menu-item"
-                                            style="
-                                                font-size: 110%;
-                                                color: #285a84;
-                                            "
-                                            href="products/almonds.html"
-                                            ><b>ALMONDS</b></a
-                                        >
-                                    </div>
-                                </li>
-                                <li class="nav-item" style="padding-top: 3%">
                                     <a
-                                        class="nav-link menu-item active"
-                                        href="order.html"
-                                        style="color: #285a84"
-                                        ><b>ORDER</b></a
+                                        class="dropdown-item menu-item"
+                                        style="font-size: 110%; color: #285a84"
+                                        href="products/chocolates.html"
+                                        ><b>CHOCOLATES</b></a
                                     >
-                                </li>
-                                <li class="nav-item" style="padding-top: 3%">
                                     <a
-                                        class="nav-link menu-item"
-                                        href="#"
-                                        style="color: #285a84"
-                                        ><b>CONTACT US</b></a
+                                        class="dropdown-item menu-item"
+                                        style="font-size: 110%; color: #285a84"
+                                        href="products/almonds.html"
+                                        ><b>ALMONDS</b></a
                                     >
+
                                 </li>
                             </ul>
                             <div class="nav-item" style="padding-left: 3%">
@@ -218,23 +193,55 @@
                         >
                             GROCERY
                         </a>
+
+                                </div>
+                            </li>
+                            <li class="nav-item" style="padding-top: 3%">
+                                <a
+                                    class="nav-link menu-item active"
+                                    href="order.html"
+                                    style="color: #285a84"
+                                    ><b>ORDER</b></a
+                                >
+                            </li>
+                            <li class="nav-item" style="padding-top: 3%">
+                                <a
+                                    class="nav-link menu-item"
+                                    href="#"
+                                    style="color: #285a84"
+                                    ><b>CONTACT US</b></a
+                                >
+                            </li>
+                        </ul>
+
                     </div>
-                    <div
-                        id="collapseThree"
-                        class="collapse"
-                        data-parent="#accordion"
-                    >
-                        <div class="card-body" style="overflow-x: auto">
-                            <table class="tg table table-bordered">
-                                <thead></thead>
-                                <tbody id="grocery">
-                                    <!--            to be filled by the script-->
-                                </tbody>
-                            </table>
+                </nav>
+            </header>
+        </div>
+
+        <div class="container main">
+            <input
+                class="form-control mr-sm-2"
+                type="text"
+                placeholder="Search the item"
+                aria-label="search"
+                id="search-input"
+                onchange="searchTable(this.value)"
+                onkeyup="searchTable(this.value)"
+                onclick="searchTable(this.value)"
+            />
+            <div class="row">
+                <div class="col-12 col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <div>
+                                Total in Rupees: <span id="counter">0</span>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
+
         </div>
         <div
             class="card-body"
@@ -247,6 +254,13 @@
                     onclick="sendOrder()"
                 >
                     checkout to whatsapp <i class="fa fa-whatsapp fa-x"></i>
+
+            <div class="accordion-container" id="accordion"></div>
+            <!--            <div class="">Total in Rupees: <span id="counter">0</span></div>-->
+            <div>
+                <button class="button" onclick="sendOrder()">
+                    Order on Whatsapp <i class="fa fa-whatsapp fa-x"></i>
+
                 </button>
             </table>
         </div>
