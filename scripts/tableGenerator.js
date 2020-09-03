@@ -1465,9 +1465,10 @@ function initialise(data) {
     const accordionContainer = document.getElementById('accordion');
     accordionContainer.innerHTML = '';
     categories.forEach((category, index) => {
-        accordionContainer.appendChild(
-            generateAccordionData(data, category, index)
-        );
+        const acc = generateAccordionData(data, category, index);
+        if (acc) {
+            accordionContainer.appendChild(acc);
+        }
     });
 }
 
