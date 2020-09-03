@@ -1489,14 +1489,8 @@ function getAccordionElement(category, index) {
     const cardDiv = document.createElement('div');
     cardDiv.className = 'card';
     cardDiv.innerHTML = `
-            <div class="card-header">
-                <a
-                    class="card-link"
-                    data-toggle="collapse"
-                    data-target="#collapse_${index}"
-                >
-                   ${getCategoryDisplayName(category)}
-                </a>
+            <div class="card-header" data-toggle="collapse" data-target="#collapse_${index}">
+                ${getCategoryDisplayName(category)}
             </div>
             <div
                 id="collapse_${index}"
