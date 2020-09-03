@@ -1449,121 +1449,111 @@ const quantities = {
     q4: '500g',
     q5: '1000g'
 };
-
-function generateTable(type) {
-    const products = inventory
-        .filter((item) => item.type === type)
-        .map((item) => {
-            return {
-                name: item.name,
-                id: item.id,
-                type: item.type,
-                prices: {
-                    q1: item.q1,
-                    q2: item.q2,
-                    q3: item.q3,
-                    q4: item.q4,
-                    q5: item.q5
-                }
-            };
-        });
-    const tbody = $(`#${type}`)[0];
-
-    products.forEach((item) => {
-        const row = document.createElement('tr');
-        row.innerHTML = `
-			<td class="table-data-item">${item.name}</td>
-		`;
-
-        Object.keys(item.prices).forEach((price) => {
-            if (!quantities.hasOwnProperty(price)) return;
-            row.innerHTML += `
-			<td class="table-data-item">
-				<div class="form-check">
-					<label class="form-check-label">
-						<input 
-                            class="form-check-input"
-                            type="checkbox"
-                            id="${item.id}_${price}"
-                            value="${item.prices[price]}"
-                        >
-                        ${item.prices[price]}
-                       
-					</label>
-				</div>
-			</td>`;
-        });
-        tbody.appendChild(row);
-    });
-}
-
-function generateTableHeaders() {
-    document.querySelectorAll('thead').forEach((header) => {
-        const tr = document.createElement('tr');
-        const name = document.createElement('th');
-        name.innerText = 'Name';
-        tr.appendChild(name);
-        Object.values(quantities).forEach((quantity) => {
-            const th = document.createElement('th');
-            th.innerText = quantity;
-            tr.appendChild(th);
-        });
-        header.appendChild(tr);
-    });
-}
+const categories = ['dryfruit', 'spices', 'grocery'];
+const categoryDisplayNames = {
+    dryfruit: 'Dry Fruits',
+    spices: 'Spices',
+    grocery: 'Groceries'
+};
 
 $(document).ready(function () {
     // initialization code goes here
-    generateTableHeaders();
-    generateTable('spices');
-    generateTable('dryfruit');
-    generateTable('grocery');
+    initialise(inventory);
 });
 
-// $(document).ready(function() {
-// 	// initialization code goes here
-// 	console.log(inventory);
-// 	const tbody = $("tbody")[0];
-// 	inventory.map(item => {
-// 		const row = document.createElement('tr');
-// 		const name = createBlock('td', 'table-data-item', item.name);
-// 		row.appendChild(name);
-// 		Object.keys(item.prices).map(price => {
-// 			const td = createBlock('td','table-data-item');
-// 			const div = createBlock('div', 'form-check');
-// 			const checkbox = createCheckbox(`${item.id}_${price}`, item.prices[price]);
-// 			div.appendChild(checkbox);
-// 			td.appendChild(div);
-// 			row.appendChild(td);
-// 		});
-//
-// 		tbody.appendChild(row);
-//
-// 	});
-//
-// 	function createBlock(type, className, data) {
-// 		const element = document.createElement(type);
-// 		if (className)
-// 			element.className = className;
-// 		if (data)
-// 			element.innerText = data;
-//
-// 		return element;
-// 	}
-//
-// 	function createCheckbox(id, quantity) {
-// 		const label = createBlock('label', 'form-check-label');
-// 		const input = createBlock('input', 'form-check-input');
-// 		input.type = 'checkbox';
-// 		input.id = id;
-// 		input.value = quantity;
-// 		label.appendChild(input);
-// 		const q = document.createTextNode(quantity);
-// 		label.appendChild(q);
-//
-// 		return label;
-// 	}
-// });
+function initialise(data) {
+    const accordionContainer = document.getElementById('accordion');
+    accordionContainer.innerHTML = '';
+    categories.forEach((category, index) => {
+        accordionContainer.appendChild(
+            generateAccordionData(data, category, index)
+        );
+    });
+}
+
+function generateAccordionData(data, category, index) {
+    const products = data
+        .filter((item) => item.type === category)
+        .map(transform);
+
+    if (products.length === 0) return null;
+
+    const accordion = getAccordionElement(category, index);
+    generateTableHeader(accordion);
+    generateTableBody(products, category, accordion);
+
+    return accordion;
+}
+
+function getAccordionElement(category, index) {
+    const cardDiv = document.createElement('div');
+    cardDiv.className = 'card';
+    cardDiv.innerHTML = `
+            <div class="card-header">
+                <a
+                    class="card-link"
+                    data-toggle="collapse"
+                    data-target="#collapse_${index}"
+                >
+                   ${getCategoryDisplayName(category)}
+                </a>
+            </div>
+            <div
+                id="collapse_${index}"
+                class="collapse show"
+                data-parent="#accordion"
+            >
+                <div class="card-body">
+                    <table id="table_${category}" class="tg table table-bordered">
+                        <thead id="thead_${category}"></thead>
+                        <tbody id="tbody_${category}"></tbody>
+                    </table>
+                </div>
+            </div>
+    `;
+
+    return cardDiv;
+}
+
+function generateTableHeader(accordion) {
+    const header = accordion.querySelector('thead');
+    const tr = document.createElement('tr');
+    const name = document.createElement('th');
+    name.innerText = 'Name';
+    tr.appendChild(name);
+    Object.values(quantities).forEach((quantity) => {
+        const th = document.createElement('th');
+        th.innerText = quantity;
+        tr.appendChild(th);
+    });
+    header.appendChild(tr);
+}
+
+const transform = (item) => {
+    return {
+        name: item.name,
+        id: item.id,
+        type: item.type,
+        prices: {
+            q1: item.q1,
+            q2: item.q2,
+            q3: item.q3,
+            q4: item.q4,
+            q5: item.q5
+        }
+    };
+};
+
+const getCategoryDisplayName = (name) => {
+    return categoryDisplayNames[name];
+};
+
+function searchTable(queryString) {
+    const filteredInventory = inventory.filter(
+        (item) => item.name.search(new RegExp(queryString, 'i')) > -1
+    );
+    initialise(filteredInventory);
+}
 
 function generateCart() {
     const selectedItems = $('input:checked');
@@ -1592,4 +1582,48 @@ function sendOrder() {
     const message = encodeURI(generateCart());
     const link = `https://api.whatsapp.com/send?phone=${phone}&text=${message}`;
     window.open(link, '_blank');
+}
+
+function generateTableBody(products, category, accordion) {
+    const tbody = accordion.querySelector('tbody');
+
+    products.forEach((item) => {
+        const row = document.createElement('tr');
+        row.innerHTML = `
+			<td class="table-data-item">${item.name}</td>
+		`;
+
+        Object.keys(item.prices).forEach((price) => {
+            if (!quantities.hasOwnProperty(price)) return;
+            row.innerHTML += `
+			<td class="table-data-item">
+				<div class="form-check">
+					<label class="form-check-label">
+						<input
+                            class="form-check-input"
+                            type="checkbox"
+                            id="${item.id}_${price}"
+                            value="${item.prices[price]}"
+                            onchange="counter(this.value, this.checked)"
+                        >
+                        ${item.prices[price]}
+					</label>
+				</div>
+			</td>`;
+        });
+        tbody.appendChild(row);
+    });
+}
+
+function counter(value, checked) {
+    let counterElement = document.getElementById('counter');
+    let total = Number(counterElement.innerText);
+    let currentItemPrice = Number(value);
+    if (checked) {
+        total = total + currentItemPrice;
+    } else {
+        total = total - currentItemPrice;
+    }
+    counterElement.innerText = total.toString();
+    // debugger;
 }

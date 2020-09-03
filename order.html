@@ -3,12 +3,13 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Document</title>
-        <link rel="stylesheet" href="styles/order.css" />
+        <title>Order</title>
         <link
             rel="stylesheet"
             href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
         />
+        <link rel="stylesheet" href="styles/order.css" />
+
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
@@ -163,91 +164,25 @@
                 </header>
             </div>
         </div>
-        <div class="container" style="padding-top: 10%">
-            <div id="accordion">
-                <div class="card">
-                    <div class="card-header">
-                        <a
-                            class="card-link"
-                            data-toggle="collapse"
-                            href="#collapseOne"
-                        >
-                            SPICES
-                        </a>
-                    </div>
-                    <div
-                        id="collapseOne"
-                        class="collapse show"
-                        data-parent="#accordion"
-                    >
-                        <div class="card-body" style="overflow-x: auto">
-                            <table class="tg table table-bordered">
-                                <thead></thead>
-                                <tbody id="spices">
-                                    <!--            to be filled by the script-->
-                                </tbody>
-                            </table>
-                        </div>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="card-header">
-                        <a
-                            class="collapsed card-link"
-                            data-toggle="collapse"
-                            href="#collapseTwo"
-                        >
-                            DRY FRUITS
-                        </a>
-                    </div>
-                    <div
-                        id="collapseTwo"
-                        class="collapse"
-                        data-parent="#accordion"
-                    >
-                        <div class="card-body" style="overflow-x: auto">
-                            <table class="tg table table-bordered">
-                                <thead></thead>
-                                <tbody id="dryfruit">
-                                    <!--            to be filled by the script-->
-                                </tbody>
-                            </table>
-                        </div>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="card-header">
-                        <a
-                            class="collapsed card-link"
-                            data-toggle="collapse"
-                            href="#collapseThree"
-                        >
-                            GROCERY
-                        </a>
-                    </div>
-                    <div
-                        id="collapseThree"
-                        class="collapse"
-                        data-parent="#accordion"
-                    >
-                        <div class="card-body" style="overflow-x: auto">
-                            <table class="tg table table-bordered">
-                                <thead></thead>
-                                <tbody id="grocery">
-                                    <!--            to be filled by the script-->
-                                </tbody>
-                            </table>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div style="padding-top: 3%; padding-left: 38%">
+        <div class="container main">
+            <input
+                class="form-control mr-sm-2"
+                type="text"
+                placeholder="Search the item"
+                aria-label="search"
+                id="search-input"
+                onchange="searchTable(this.value)"
+                onkeyup="searchTable(this.value)"
+            />
+            <div class="accordion-container" id="accordion"></div>
+            <div>Total in Rupees: <span id="counter">0</span></div>
+            <div>
                 <button
-                    class="my-float float button"
-                    style="background-color: #25d366"
-                    onclick="sendOrder()"
+                        class="my-float float button"
+                        style="background-color: #25d366"
+                        onclick="sendOrder()"
                 >
-                    checkout to whatsapp <i class="fa fa-whatsapp fa-x"></i>
+                    checkout to Whatsapp <i class="fa fa-whatsapp fa-x"></i>
                 </button>
             </div>
         </div>
