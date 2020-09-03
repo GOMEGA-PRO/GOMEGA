@@ -1494,7 +1494,7 @@ function getAccordionElement(category, index) {
             </div>
             <div
                 id="collapse_${index}"
-                class="collapse "
+                class="collapse show"
                 data-parent="#accordion"
             >
                 <div class="card-body">
