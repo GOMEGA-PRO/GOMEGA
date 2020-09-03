@@ -1,22 +1,14 @@
-.float {
-    position: fixed;
-    background-color: #25d366;
-    color: #fff;
-    text-align: center;
-    font-size: 18px;
-    border-radius: 5px;
-}
-
 .button {
     border: none;
     color: white;
     padding: 9px 18px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    cursor: pointer;
+    background-color: #25d366;
+    font-size: 18px;
+    border-radius: 5px;
 }
-
+.fa-whatsapp {
+    margin-left: 10px;
+}
 header {
     height: 100px;
 }
