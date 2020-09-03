@@ -1443,8 +1443,8 @@ const inventory = [
     }
 ];
 const quantities = {
-    q1: '50g',
-    q2: '100g',
+    // q1: '50g',
+    // q2: '100g',
     q3: '250g',
     q4: '500g',
     q5: '1000g'
@@ -1500,7 +1500,7 @@ function getAccordionElement(category, index) {
             </div>
             <div
                 id="collapse_${index}"
-                class="collapse show"
+                class="collapse "
                 data-parent="#accordion"
             >
                 <div class="card-body">

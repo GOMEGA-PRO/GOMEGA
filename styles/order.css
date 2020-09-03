@@ -47,6 +47,13 @@ header {
     font-weight: bold;
     vertical-align: top;
 }
+nav {
+    box-shadow: none;
+    background-color: #c2ef7e;
+}
+.card-body {
+    overflow-x: auto;
+}
 
 .table-bordered td {
     border: 2px solid black;
