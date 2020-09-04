@@ -18,115 +18,144 @@
             rel="stylesheet"
             href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
         />
+        <style>
+            h2 {
+                font-family: sans-serif;
+                color: black;
+            }
+            body {
+                font-family: 'Lato', sans-serif;
+                font-weight: normal;
+                color: rgba(18, 18, 18, 0.7);
+                font-size: 16px;
+                position: relative;
+            }
+            p {
+                font-family: 'Lato', sans-serif;
+                font-size: 16px;
+                line-height: 250%;
+                letter-spacing: 1.5px;
+            }
+        </style>
     </head>
     <body>
-        <div class="menu">
-            <header>
-                <nav
-                    class="navbar navbar-expand-lg navbar-light no-shadow"
-                    style="box-shadow: none; background-color: #c2ef7e"
-                >
-                    <button
-                        type="button"
-                        class="navbar-toggler"
-                        data-toggle="collapse"
-                        data-target="#navbarCollapse"
+        <div class="container">
+            <div class="menu">
+                <header>
+                    <nav
+                        class="navbar navbar-expand-lg fixed-top navbar-light no-shadow row"
+                        style="box-shadow: none; background-color: #c2ef7e"
                     >
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-
-                    <div
-                        class="collapse navbar-collapse expanded-menu"
-                        id="navbarCollapse"
-                    >
-                        <ul class="navbar-nav" style="padding-left: 6%">
-                            <a class="navbar-brand" href="index.html">
-                                <img
-                                    src="assets/original-logo.png"
-                                    width="80"
-                                    height="60"
-                                    alt=""
-                                />
-                            </a>
-                            <li class="nav-item" style="padding-top: 3%">
-                                <a
-                                    class="nav-link menu-item"
-                                    style="color: #285a84"
-                                    href="index.html"
-                                    ><b>HOME</b></a
-                                >
-                            </li>
-                            <li class="nav-item" style="padding-top: 3%">
-                                <a
-                                    class="nav-link menu-item"
-                                    style="color: #285a84"
-                                    href="#"
-                                    ><b>ABOUT US</b></a
-                                >
-                            </li>
-                            <li
-                                class="nav-item dropdown active"
-                                style="padding-top: 3%"
-                            >
-                                <a
-                                    class="nav-link dropdown-toggle menu-item"
-                                    style="color: #285a84"
-                                    href="#"
-                                    id="navbarDropdownMenuLink"
-                                    role="button"
-                                    data-toggle="dropdown"
-                                    aria-haspopup="true"
-                                    aria-expanded="false"
-                                >
-                                    <b>OUR PRODUCTS</b>
-                                </a>
-                                <div
-                                    class="dropdown-menu dropdown-content"
-                                    aria-labelledby="navbarDropdownMenuLink"
-                                    data-dropdown-in="fadeIn"
-                                    data-dropdown-out="fadeOut"
-                                    style="background-color: #c2ef7e"
-                                >
+                        <button
+                            type="button"
+                            class="navbar-toggler"
+                            data-toggle="collapse"
+                            data-target="#navbarCollapse"
+                        >
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <a class="navbar-brand" href="../index.html">
+                            <img
+                                src="../assets/original-logo.png"
+                                style="margin-left: 20%"
+                                class="d-none d-sm-block"
+                                width="80"
+                                height="60"
+                                alt=""
+                            />
+                        </a>
+                        <div
+                            class="collapse navbar-collapse expanded-menu"
+                            id="navbarCollapse"
+                            style="margin-left: 40%"
+                        >
+                            <ul class="navbar-nav hover">
+                                <li class="nav-item">
                                     <a
-                                        class="dropdown-item menu-item"
-                                        style="font-size: 110%; color: #285a84"
-                                        href="products/dates.html"
-                                        ><b>DATES</b></a
+                                        class="nav-link menu-item"
+                                        style="color: #285a84"
+                                        href="../index.html"
+                                        ><b>HOME</b></a
                                     >
+                                </li>
+                                <li class="nav-item">
                                     <a
-                                        class="dropdown-item menu-item"
-                                        style="font-size: 110%; color: #285a84"
-                                        href="products/chocolates.html"
-                                        ><b>CHOCOLATES</b></a
+                                        class="nav-link menu-item"
+                                        style="color: #285a84"
+                                        href="#"
+                                        ><b>ABOUT US</b></a
                                     >
+                                </li>
+                                <li class="nav-item dropdown active">
                                     <a
-                                        class="dropdown-item menu-item"
-                                        style="font-size: 110%; color: #285a84"
-                                        href="products/almonds.html"
-                                        ><b>ALMONDS</b></a
+                                        class="nav-link dropdown-toggle menu-item"
+                                        style="color: #285a84"
+                                        href="#"
+                                        id="navbarDropdownMenuLink"
+                                        role="button"
+                                        data-toggle="dropdown"
+                                        aria-haspopup="true"
+                                        aria-expanded="false"
                                     >
-                                </div>
-                            </li>
-                            <li class="nav-item" style="padding-top: 3%">
-                                <a
-                                    class="nav-link menu-item active"
-                                    href="order.html"
-                                    style="color: #285a84"
-                                    ><b>ORDER</b></a
-                                >
-                            </li>
-                            <li class="nav-item" style="padding-top: 3%">
-                                <a
-                                    class="nav-link menu-item"
-                                    href="#"
-                                    style="color: #285a84"
-                                    ><b>CONTACT US</b></a
-                                >
-                            </li>
-                        </ul>
-                    </div>
-                </nav>
-            </header>
+                                        <b>OUR PRODUCTS</b>
+                                    </a>
+                                    <div
+                                        class="dropdown-menu dropdown-content"
+                                        aria-labelledby="navbarDropdownMenuLink"
+                                        data-dropdown-in="fadeIn"
+                                        data-dropdown-out="fadeOut"
+                                        style="background-color: #c2ef7e"
+                                    >
+                                        <a
+                                            class="dropdown-item menu-item"
+                                            style="
+                                                font-size: 16px;
+                                                color: #285a84;
+                                            "
+                                            href="products/dates.html"
+                                            ><b>DATES</b></a
+                                        >
+                                        <a
+                                            class="dropdown-item menu-item"
+                                            style="
+                                                font-size: 16px;
+                                                color: #285a84;
+                                            "
+                                            href="products/chocolates.html"
+                                            ><b>CHOCOLATES</b></a
+                                        >
+                                        <a
+                                            class="dropdown-item menu-item"
+                                            style="
+                                                font-size: 16px;
+                                                color: #285a84;
+                                            "
+                                            href="products/almonds.html"
+                                            ><b>ALMONDS</b></a
+                                        >
+                                    </div>
+                                </li>
+                                <li class="nav-item">
+                                    <a
+                                        class="nav-link menu-item"
+                                        href="../order.html"
+                                        style="color: #285a84"
+                                        ><b>ORDER</b></a
+                                    >
+                                </li>
+                                <li class="nav-item">
+                                    <a
+                                        class="nav-link menu-item"
+                                        href="#"
+                                        style="color: #285a84"
+                                        ><b>CONTACT US</b></a
+                                    >
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </header>
+            </div>
         </div>
 
         <div class="container main">
