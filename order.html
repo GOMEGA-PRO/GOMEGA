@@ -97,7 +97,7 @@
                     ><b>ABOUT US</b></a
                   >
                 </li>
-                <li class="nav-item dropdown active">
+                <li class="nav-item dropdown dropdown-content active">
                   <a
                     class="nav-link dropdown-toggle menu-item"
                     style="color: #285a84"
@@ -133,8 +133,8 @@
                       class="dropdown-item menu-item"
                       style="font-size: 16px; color: #285a84"
                       href="products/almonds.html"
-                      ><b>ALMONDS</b></a
-                    >
+                      ><b>ALMONDS</b>
+                    </a>
                   </div>
                 </li>
                 <li class="nav-item">
@@ -167,6 +167,37 @@
         onchange="searchTable(this.value)"
         onkeyup="searchTable(this.value)"
       />
+      <div class="form-group row">
+        <label for="firstname" class="col-md-2 col-form-label"
+          ><b>First Name: </b></label
+        >
+        <div class="col-md-4">
+          <input
+            type="text"
+            class="form-control"
+            id="name"
+            value=""
+            name="firstname"
+            placeholder="First Name"
+            onchange="generateCart(this.value)"
+          />
+        </div>
+      </div>
+      <div class="form-group row">
+        <label for="address" class="col-md-2 col-form-label"
+          ><b>Your Address:</b></label
+        >
+        <div class="col-md-4">
+          <textarea
+            class="form-control"
+            id="address"
+            value=""
+            name="address"
+            rows="4"
+            onchange="generateCart(this.value)"
+          ></textarea>
+        </div>
+      </div>
       <div class="row">
         <div class="col-12 col-md-4">
           <div class="card">
@@ -176,7 +207,7 @@
           </div>
         </div>
       </div>
-      <div class="accordion-container" id="accordion"></div>
+      <div class="accordion-container acc" id="accordion"></div>
       <div>
         <button class="button" onclick="sendOrder()">
           Order on Whatsapp <i class="fa fa-whatsapp fa-x"></i>
