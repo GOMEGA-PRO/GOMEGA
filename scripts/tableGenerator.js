@@ -1567,10 +1567,7 @@ function searchTable(queryString) {
 
 function generateCart() {
     const currentOrders = window.currentOrders;
-    if (currentOrders.length === 0) {
-        window.alert('There are no orders placed');
-        return '';
-    }
+
     const name = document.getElementById('name').value;
     const address = document.getElementById('address').value;
     let message = `Hello, I'm ${name} \nMy Address: ${address} \nHere is the list of items I would like to purchase: \n`;
@@ -1580,6 +1577,12 @@ function generateCart() {
         ).name;
         message += `${name} : ${item.quantity}Kg \n`;
     });
+    if (currentOrders.length === 0) {
+        window.alert('There are no orders placed');
+        return '';
+    } else {
+        window.alert(`${message}`);
+    }
 
     return message;
 }
