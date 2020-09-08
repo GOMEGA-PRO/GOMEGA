@@ -1578,23 +1578,18 @@ function generateCart() {
         message += `${name} : ${item.quantity}Kg \n`;
     });
     if (currentOrders.length === 0) {
-        window.alert('There are no orders placed');
+        window.confirm('There are no orders placed');
         return '';
     } else {
-        window.alert(`${message}`);
+        result = window.confirm(`${message}`);
+        if (result === false) {
+            return;
+        }
+        const link = `https://api.whatsapp.com/send?phone=${phone}&text=${message}`;
+        window.open(link, '_blank');
     }
 
     return message;
-}
-
-function sendOrder() {
-    const message = encodeURI(generateCart());
-    debugger;
-    if (!message) {
-        return;
-    }
-    const link = `https://api.whatsapp.com/send?phone=${phone}&text=${message}`;
-    window.open(link, '_blank');
 }
 
 function generateTableBody(products, category, accordion) {
