@@ -1528,6 +1528,7 @@ function generateTableHeader(accordion) {
         tr.appendChild(getTableHeaderCell(quantity));
     });
     tr.appendChild(getTableHeaderCell('Custom'));
+    tr.appendChild(getTableHeaderCell('Total'));
 
     header.appendChild(tr);
 }
@@ -1614,7 +1615,7 @@ function generateTableBody(products, category, accordion) {
 					<label class="form-check-label">
 						<input
                             class="form-check-input"
-                            type="radio"
+                            type="checkbox"
                             id="${item.id}_${price}"
                             name="${item.id}"
                             value="${item.prices[price]}"
@@ -1635,12 +1636,24 @@ function generateTableBody(products, category, accordion) {
                 <input
                     id="custom"
                     type="number"
-                    onchange="updateOrder(${item.id},this.value,${item.prices[kiloRateId]})"
-                    onkeyup="updateOrder(${item.id},this.value,${item.prices[kiloRateId]})"
+                    onchange="updateOrder(${item.id},this.value,${
+            item.prices[kiloRateId]
+        }) update(this.value)"
+                    onkeyup="updateOrder(${item.id},this.value,${
+            item.prices[kiloRateId]
+        }) update(this.value)"
                 >
-            </td>`;
+            </td>
+            <td class="table-data-item">
+                ${update()}
+            </td>
+            `;
         tbody.appendChild(row);
     });
+}
+
+function update(quantity) {
+    return quantity;
 }
 
 function getQuantityMultiplier(qid) {
