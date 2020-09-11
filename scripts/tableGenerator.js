@@ -1527,7 +1527,8 @@ function generateTableHeader(accordion) {
     Object.values(quantities).forEach((quantity) => {
         tr.appendChild(getTableHeaderCell(quantity));
     });
-    tr.appendChild(getTableHeaderCell('Custom'));
+    tr.appendChild(getTableHeaderCell('Bulk (in Kg)'));
+    tr.appendChild(getTableHeaderCell('Total'));
 
     header.appendChild(tr);
 }
@@ -1601,6 +1602,7 @@ function generateTableBody(products, category, accordion) {
 			<td class="table-data-item">${item.name}</td>
 		`;
 
+        //quantities
         Object.keys(item.prices).forEach((price) => {
             if (!quantities.hasOwnProperty(price)) return;
             row.innerHTML += `
@@ -1608,11 +1610,12 @@ function generateTableBody(products, category, accordion) {
 				<div class="form-check">
 					<label class="form-check-label">
 						<input
-                            class="form-check-input"
+                            class="form-check-input "
                             type="radio"
                             id="${item.id}_${price}"
                             name="${item.id}"
                             value="${item.prices[price]}"
+                            onclick="toggleRadio(this) "
                             onchange="updateCheckBoxOrder(
                             	${item.id},
                             	${getQuantityMultiplier(price)},
@@ -1625,17 +1628,34 @@ function generateTableBody(products, category, accordion) {
 				</div>
 			</td>`;
         });
+        //bulk orders input text
         row.innerHTML += `
             <td class="table-data-item">
                 <input
-                    id="custom"
+                    id="bulk_${item.id}"
                     type="number"
-                    onchange="updateOrder(${item.id},this.value,${item.prices[kiloRateId]})"
-                    onkeyup="updateOrder(${item.id},this.value,${item.prices[kiloRateId]})"
+                    onchange="updateBulkOrder(${item.id},this.value,${item.prices[kiloRateId]}) "
+                    onkeyup="updateBulkOrder(${item.id},this.value,${item.prices[kiloRateId]}) "
                 >
-            </td>`;
+            </td>
+            <td class="table-data-item" >
+                <div id="total_${item.id}">
+                    0
+                </div>
+            </td>
+            `;
         tbody.appendChild(row);
     });
+}
+
+function toggleRadio(ele) {
+    if (ele.classList.contains('on')) {
+        ele.checked = false;
+        ele.onchange();
+        ele.classList.remove('on');
+    } else {
+        ele.classList.add('on');
+    }
 }
 
 function getQuantityMultiplier(qid) {
@@ -1659,7 +1679,24 @@ function updateOrder(id, quantity, rate) {
         };
         currentOrders.push(newOrder);
     }
+    updateLocalCounter(id);
+    updateGlobalCounter();
+}
 
+function updateLocalCounter(id) {
+    let localCounterElement = document.getElementById(`total_${id}`);
+    const order = window.currentOrders.find((item) => item.id === id);
+    if (order) {
+        localCounterElement.innerText = (
+            order.quantity * order.rate
+        ).toString();
+    } else {
+        localCounterElement.innerText = '0';
+    }
+}
+
+function updateGlobalCounter() {
+    const currentOrders = window.currentOrders;
     let total = 0;
     currentOrders.forEach((item) => {
         total = total + item.quantity * item.rate;
@@ -1674,4 +1711,18 @@ function updateCheckBoxOrder(id, quantity, rate, checked) {
     } else {
         updateOrder(id, 0, rate);
     }
+    clearBulkOrderInputText(id);
+}
+function updateBulkOrder(id, quantity, rate) {
+    clearQuantityInputRadio(id);
+    updateOrder(id, quantity, rate);
+}
+function clearBulkOrderInputText(id) {
+    document.getElementById(`bulk_${id}`).value = '';
+}
+function clearQuantityInputRadio(id) {
+    $(`input[name = '${id}']`).each(function () {
+        this.checked = false;
+        this.classList.remove('on');
+    });
 }
