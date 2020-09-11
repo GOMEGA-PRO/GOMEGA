@@ -1588,6 +1588,36 @@ function generateCart() {
     return message;
 }
 
+(function formValidation() {
+    'use strict';
+    window.addEventListener(
+        'load',
+        function () {
+            // Get the forms we want to add validation styles to
+            var forms = document.getElementsByClassName('needs-validation');
+            // Loop over them and prevent submission
+            var validation = Array.prototype.filter.call(forms, function (
+                form
+            ) {
+                form.addEventListener(
+                    'submit',
+                    function (event) {
+                        if (form.checkValidity() === false) {
+                            event.preventDefault();
+                            event.stopPropagation();
+                        } else {
+                            sendOrder();
+                        }
+                        form.classList.add('was-validated');
+                    },
+                    false
+                );
+            });
+        },
+        false
+    );
+})();
+
 function sendOrder() {
     const message = encodeURI(generateCart());
 

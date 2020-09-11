@@ -175,60 +175,75 @@
         </div>
 
         <div class="container main">
-            <div class="form-group row">
-                <label for="name" class="col-md-2 col-form-label"
-                    ><b>First Name: </b></label
-                >
-                <div class="col-md-4">
-                    <input
-                        type="text"
-                        class="form-control"
-                        id="name"
-                        placeholder="First Name"
-                    />
+            <form class="needs-validation" novalidate>
+                <div class="form-group row">
+                    <label for="name" class="col-md-2 col-form-label"
+                        ><b>First Name: </b></label
+                    >
+                    <div class="col-md-4">
+                        <input
+                            type="text"
+                            class="form-control"
+                            id="name"
+                            placeholder="First Name"
+                            name="name"
+                            required
+                        />
+                        <div class="invalid-feedback">
+                            Please fill out this field.
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <div class="form-group row">
-                <label for="address" class="col-md-2 col-form-label"
-                    ><b>Your Address:</b></label
-                >
-                <div class="col-md-4">
-                    <textarea
-                        class="form-control"
-                        id="address"
-                        name="address"
-                        rows="4"
-                    ></textarea>
+                <div class="form-group row">
+                    <label for="address" class="col-md-2 col-form-label"
+                        ><b>Your Address:</b></label
+                    >
+                    <div class="col-md-4">
+                        <textarea
+                            class="form-control"
+                            id="address"
+                            name="address"
+                            rows="4"
+                            required
+                        ></textarea>
+                        <div class="invalid-feedback">
+                            Please fill out this field.
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <div class="row">
-                <div class="col-12 col-md-4">
-                    <input
-                        class="form-control mr-sm-2"
-                        type="text"
-                        placeholder="Search the item"
-                        aria-label="search"
-                        id="search-input"
-                        onchange="searchTable(this.value)"
-                        onkeyup="searchTable(this.value)"
-                    />
-                </div>
-                <div class="col-12 col-md-4 offset-md-2">
-                    <div class="card">
-                        <div class="card-body">
-                            <div>
-                                Total in Rupees: <span id="counter">0</span>
+                <div class="row">
+                    <div class="col-12 col-md-4">
+                        <input
+                            class="form-control mr-sm-2"
+                            type="text"
+                            placeholder="Search the item"
+                            aria-label="search"
+                            id="search-input"
+                            onchange="searchTable(this.value)"
+                            onkeyup="searchTable(this.value)"
+                        />
+                    </div>
+                    <div class="col-12 col-md-4 offset-md-2">
+                        <div class="card">
+                            <div class="card-body">
+                                <div>
+                                    Total in Rupees: <span id="counter">0</span>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="accordion-container acc" id="accordion"></div>
-            <div>
-                <button class="button" onclick="sendOrder()">
-                    Order on Whatsapp <i class="fa fa-whatsapp fa-x"></i>
-                </button>
-            </div>
+                <div class="accordion-container acc" id="accordion"></div>
+                <div>
+                    <button
+                        class="button btn"
+                        type="submit"
+                        onclick="formValidation()"
+                    >
+                        Order on Whatsapp <i class="fa fa-whatsapp fa-x"></i>
+                    </button>
+                </div>
+            </form>
         </div>
         <script src="scripts/tableGenerator.js"></script>
     </body>
