@@ -175,15 +175,6 @@
         </div>
 
         <div class="container main">
-            <input
-                class="form-control mr-sm-2"
-                type="text"
-                placeholder="Search the item"
-                aria-label="search"
-                id="search-input"
-                onchange="searchTable(this.value)"
-                onkeyup="searchTable(this.value)"
-            />
             <div class="form-group row">
                 <label for="name" class="col-md-2 col-form-label"
                     ><b>First Name: </b></label
@@ -212,6 +203,17 @@
             </div>
             <div class="row">
                 <div class="col-12 col-md-4">
+                    <input
+                        class="form-control mr-sm-2"
+                        type="text"
+                        placeholder="Search the item"
+                        aria-label="search"
+                        id="search-input"
+                        onchange="searchTable(this.value)"
+                        onkeyup="searchTable(this.value)"
+                    />
+                </div>
+                <div class="col-12 col-md-4 offset-md-2">
                     <div class="card">
                         <div class="card-body">
                             <div>
