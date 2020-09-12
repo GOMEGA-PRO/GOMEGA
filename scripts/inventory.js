@@ -1442,7 +1442,7 @@ define(function () {
         }
     ];
     function getById(id) {
-        return data.find((item) => item.id === id.toString());
+        return data.find((item) => item.id.toString() === id.toString());
     }
 
     function getName(id) {

@@ -193,17 +193,14 @@ function generateCart() {
     const address = document.getElementById('address').value;
     let message = `Hello, I'm ${name} \nMy Address: ${address} \nHere is the list of items I would like to purchase: \n`;
     currentOrders.forEach((item) => {
-        const name = inventory.find(
-            (product) => product.id === item.id.toString()
-        ).name;
+        const name = inventory.getName(item.id);
         message += `${name} : ${item.quantity}Kg \n`;
     });
     if (currentOrders.length === 0) {
         window.confirm('There are no orders placed');
         return '';
     } else {
-        result = window.confirm(`${message}`);
-        if (result === false) {
+        if (!window.confirm(`${message}`)) {
             return;
         }
         const link = `https://api.whatsapp.com/send?phone=${phone}&text=${message}`;
