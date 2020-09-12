@@ -175,7 +175,7 @@
         </div>
 
         <div class="container main">
-            <form class="needs-validation" novalidate>
+            <form class="needs-validation" novalidate id="user-form">
                 <div class="form-group row">
                     <label for="name" class="col-md-2 col-form-label"
                         ><b>First Name: </b></label
@@ -211,40 +211,36 @@
                         </div>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-12 col-md-4">
-                        <input
-                            class="form-control mr-sm-2"
-                            type="text"
-                            placeholder="Search the item"
-                            aria-label="search"
-                            id="search-input"
-                            onchange="searchTable(this.value)"
-                            onkeyup="searchTable(this.value)"
-                        />
-                    </div>
-                    <div class="col-12 col-md-4 offset-md-2">
-                        <div class="card">
-                            <div class="card-body">
-                                <div>
-                                    Total in Rupees: <span id="counter">0</span>
-                                </div>
+            </form>
+            <div class="row">
+                <div class="col-12 col-md-4">
+                    <input
+                        class="form-control mr-sm-2"
+                        type="text"
+                        placeholder="Search the item"
+                        aria-label="search"
+                        id="search-input"
+                        onchange="searchTable(this.value)"
+                        onkeyup="searchTable(this.value)"
+                    />
+                </div>
+                <div class="col-12 col-md-4 offset-md-2">
+                    <div class="card">
+                        <div class="card-body">
+                            <div>
+                                Total in Rupees: <span id="counter">0</span>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="accordion-container acc" id="accordion"></div>
-                <div>
-                    <button
-                        class="button btn"
-                        type="submit"
-                        onclick="formValidation()"
-                    >
-                        Order on Whatsapp <i class="fa fa-whatsapp fa-x"></i>
-                    </button>
-                </div>
-            </form>
+            </div>
+            <div class="accordion-container acc" id="accordion"></div>
+            <div>
+                <button class="button btn" onclick="formValidation()">
+                    Order on Whatsapp <i class="fa fa-whatsapp fa-x"></i>
+                </button>
+            </div>
         </div>
-        <script src="scripts/tableGenerator.js"></script>
+        <script data-main="config" src="scripts/require.js"></script>
     </body>
 </html>
