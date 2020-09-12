@@ -323,6 +323,12 @@ function formValidation() {
 
     if (form.checkValidity()) {
         generateCart();
+    } else {
+        form.scrollIntoView({
+            behavior: 'smooth',
+            block: 'end',
+            inline: 'nearest'
+        });
     }
 
     form.classList.add('was-validated');

@@ -1,3 +1,15 @@
+h2 {
+    font-family: sans-serif;
+    color: black;
+}
+body {
+    font-family: 'Lato', sans-serif;
+    font-weight: normal;
+    color: rgba(18, 18, 18, 0.7);
+    font-size: 16px;
+    position: relative;
+}
+
 .button {
     border: none;
     color: white;
@@ -73,7 +85,6 @@ nav {
 th,
 td {
     max-width: 100px;
-    /*min-width: 20px;*/
 }
 
 input[type='number'] {
@@ -86,4 +97,16 @@ input[type='number'] {
 .total-amount {
     margin-left: 10px;
     width: 50%;
+}
+
+i {
+    color: #285a84;
+}
+
+#navbarCollapse {
+    justify-content: center;
+}
+
+.navbar-brand {
+    margin-left: 1.5rem;
 }
