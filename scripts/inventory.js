@@ -1,7 +1,7 @@
 define(function () {
     const data = [
         {
-            name: 'WALNUT /AKHROT WHOLE',
+            name: 'WALNUT /AKHROT WHOLE (700/kg)',
             q1: '35',
             q2: '70',
             q3: '175',
@@ -11,7 +11,7 @@ define(function () {
             type: 'dryfruit'
         },
         {
-            name: 'FIG /ANJEER ',
+            name: 'FIG /ANJEER (1140/kg)',
             q1: '57',
             q2: '114',
             q3: '285',
@@ -21,7 +21,7 @@ define(function () {
             type: 'dryfruit'
         },
         {
-            name: 'APRICOT',
+            name: 'APRICOT (600/kg)',
             q1: '30',
             q2: '60',
             q3: '150',
@@ -31,7 +31,7 @@ define(function () {
             type: 'dryfruit'
         },
         {
-            name: 'BADAM_PREMIUM',
+            name: 'BADAM_PREMIUM (780/kg)',
             q1: '39',
             q2: '78',
             q3: '195',
@@ -41,7 +41,7 @@ define(function () {
             type: 'dryfruit'
         },
         {
-            name: 'BADAM_REGULAR ',
+            name: 'BADAM_REGULAR (620/kg)',
             q1: '31',
             q2: '62',
             q3: '155',
@@ -51,7 +51,7 @@ define(function () {
             type: 'dryfruit'
         },
         {
-            name: 'CHIASEEDS',
+            name: 'CHIASEEDS (400/kg)',
             q1: '20',
             q2: '40',
             q3: '100',
@@ -61,7 +61,7 @@ define(function () {
             type: 'dryfruit'
         },
         {
-            name: 'CHILGOZA MAKAZ',
+            name: 'CHILGOZA MAKAZ (6800/kg)',
             q1: '340',
             q2: '680',
             q3: '1700',
@@ -71,7 +71,7 @@ define(function () {
             type: 'dryfruit'
         },
         {
-            name: 'CHIRONJI ',
+            name: 'CHIRONJI (1600/kg)',
             q1: '80',
             q2: '160',
             q3: '400',
@@ -81,7 +81,7 @@ define(function () {
             type: 'dryfruit'
         },
         {
-            name: 'DATES SEEDLESS',
+            name: 'DATES SEEDLESS (160/kg)',
             q1: '8',
             q2: '16',
             q3: '40',
@@ -91,7 +91,7 @@ define(function () {
             type: 'dryfruit'
         },
         {
-            name: 'DRY_DATES',
+            name: 'DRY_DATES (360/kg)',
             q1: '18',
             q2: '36',
             q3: '90',
@@ -101,7 +101,7 @@ define(function () {
             type: 'dryfruit'
         },
         {
-            name: 'KAJU 2PCS',
+            name: 'KAJU 2PCS (780/kg)',
             q1: '39',
             q2: '78',
             q3: '195',
@@ -111,7 +111,7 @@ define(function () {
             type: 'dryfruit'
         },
         {
-            name: 'KAJU 4PCS',
+            name: 'KAJU 4PCS (620/kg)',
             q1: '31',
             q2: '62',
             q3: '155',
@@ -121,7 +121,7 @@ define(function () {
             type: 'dryfruit'
         },
         {
-            name: 'KAJU_PREMIUM ',
+            name: 'KAJU_PREMIUM (940/kg)',
             q1: '47',
             q2: '94',
             q3: '235',
@@ -131,7 +131,7 @@ define(function () {
             type: 'dryfruit'
         },
         {
-            name: 'KAJU_REGULAR',
+            name: 'KAJU_REGULAR (820/kg)',
             q1: '41',
             q2: '82',
             q3: '205',
@@ -141,7 +141,7 @@ define(function () {
             type: 'dryfruit'
         },
         {
-            name: 'KHARBOOJSEEDS',
+            name: 'KHARBOOJSEEDS (500/kg)',
             q1: '25',
             q2: '50',
             q3: '125',
@@ -151,7 +151,7 @@ define(function () {
             type: 'dryfruit'
         },
         {
-            name: 'KISHMISH_BLACK',
+            name: 'KISHMISH_BLACK (540/kg)',
             q1: '27',
             q2: '54',
             q3: '135',
@@ -161,7 +161,7 @@ define(function () {
             type: 'dryfruit'
         },
         {
-            name: 'KISHMISH_GREEN',
+            name: 'KISHMISH_GREEN (320/kg)',
             q1: '16',
             q2: '32',
             q3: '80',
@@ -171,7 +171,7 @@ define(function () {
             type: 'dryfruit'
         },
         {
-            name: 'KISHMISH_PREMIUM',
+            name: 'KISHMISH_PREMIUM (520/kg)',
             q1: '26',
             q2: '52',
             q3: '130',
@@ -181,7 +181,7 @@ define(function () {
             type: 'dryfruit'
         },
         {
-            name: 'MAKHANA',
+            name: 'MAKHANA (940/kg)',
             q1: '47',
             q2: '94',
             q3: '235',
@@ -191,7 +191,7 @@ define(function () {
             type: 'dryfruit'
         },
         {
-            name: 'MAMRA_BADAM(EXCLU)',
+            name: 'MAMRA_BADAM(EXCLU) (3000/kg)',
             q1: '150',
             q2: '300',
             q3: '750',
@@ -201,7 +201,7 @@ define(function () {
             type: 'dryfruit'
         },
         {
-            name: 'MANUKA',
+            name: 'MANUKA (640/kg)',
             q1: '32',
             q2: '64',
             q3: '160',
@@ -211,7 +211,7 @@ define(function () {
             type: 'dryfruit'
         },
         {
-            name: 'PLAIN_PISTA',
+            name: 'PLAIN_PISTA (1300/kg)',
             q1: '65',
             q2: '130',
             q3: '325',
@@ -221,7 +221,7 @@ define(function () {
             type: 'dryfruit'
         },
         {
-            name: 'POOJA BADAM',
+            name: 'POOJA BADAM (280/kg)',
             q1: '14',
             q2: '28',
             q3: '70',
@@ -231,7 +231,7 @@ define(function () {
             type: 'dryfruit'
         },
         {
-            name: 'PUMPKIN SEEDS',
+            name: 'PUMPKIN SEEDS (600/kg)',
             q1: '30',
             q2: '60',
             q3: '150',
@@ -241,7 +241,7 @@ define(function () {
             type: 'dryfruit'
         },
         {
-            name: 'QUINOA',
+            name: 'QUINOA (200/kg)',
             q1: '10',
             q2: '20',
             q3: '50',
@@ -251,7 +251,7 @@ define(function () {
             type: 'dryfruit'
         },
         {
-            name: 'SALTED_PISTA',
+            name: 'SALTED_PISTA (960/kg)',
             q1: '48',
             q2: '96',
             q3: '240',
@@ -261,7 +261,7 @@ define(function () {
             type: 'dryfruit'
         },
         {
-            name: 'SUNFLOWERSEEDS',
+            name: 'SUNFLOWERSEEDS (400/kg)',
             q1: '20',
             q2: '40',
             q3: '100',
@@ -271,7 +271,7 @@ define(function () {
             type: 'dryfruit'
         },
         {
-            name: 'WALNUT_KERNELS',
+            name: 'WALNUT_KERNELS (1200/kg)',
             q1: '60',
             q2: '120',
             q3: '300',
@@ -281,7 +281,7 @@ define(function () {
             type: 'dryfruit'
         },
         {
-            name: 'ALSI',
+            name: 'ALSI (99/kg)',
             q1: '4.95',
             q2: '9.9',
             q3: '24.75',
@@ -291,7 +291,7 @@ define(function () {
             type: 'grocery'
         },
         {
-            name: 'ALUBUKHARA',
+            name: 'ALUBUKHARA (300/kg)',
             q1: '15',
             q2: '30',
             q3: '75',
@@ -301,7 +301,7 @@ define(function () {
             type: 'grocery'
         },
         {
-            name: 'BAJRA',
+            name: 'BAJRA (47/kg)',
             q1: '2.35',
             q2: '4.7',
             q3: '11.75',
@@ -311,7 +311,7 @@ define(function () {
             type: 'grocery'
         },
         {
-            name: 'BAJRI ATTA',
+            name: 'BAJRI ATTA (60/kg)',
             q1: '3',
             q2: '6',
             q3: '15',
@@ -321,7 +321,7 @@ define(function () {
             type: 'grocery'
         },
         {
-            name: 'BASMATI RICE IndiaGate CLASSIC',
+            name: 'BASMATI RICE IndiaGate CLASSIC (170/kg)',
             q1: '8.5',
             q2: '17',
             q3: '42.5',
@@ -331,7 +331,7 @@ define(function () {
             type: 'grocery'
         },
         {
-            name: 'BESAN',
+            name: 'BESAN (85/kg)',
             q1: '4.2',
             q2: '8.4',
             q3: '21',
@@ -341,7 +341,7 @@ define(function () {
             type: 'grocery'
         },
         {
-            name: 'BHAGAR',
+            name: 'BHAGAR (120/kg)',
             q1: '6',
             q2: '12',
             q3: '30',
@@ -351,7 +351,7 @@ define(function () {
             type: 'grocery'
         },
         {
-            name: 'BLACK SALT POWDER',
+            name: 'BLACK SALT POWDER (80/kg)',
             q1: '4',
             q2: '8',
             q3: '20',
@@ -361,7 +361,7 @@ define(function () {
             type: 'grocery'
         },
         {
-            name: 'CHANA DAL',
+            name: 'CHANA DAL (88/kg)',
             q1: '4.40',
             q2: '8.80',
             q3: '22',
@@ -371,7 +371,7 @@ define(function () {
             type: 'grocery'
         },
         {
-            name: 'CHERRY',
+            name: 'CHERRY (200/kg)',
             q1: '10',
             q2: '20',
             q3: '50',
@@ -381,7 +381,7 @@ define(function () {
             type: 'grocery'
         },
         {
-            name: 'CITRIC ACID',
+            name: 'CITRIC ACID (200/kg)',
             q1: '10',
             q2: '20',
             q3: '50',
@@ -391,7 +391,7 @@ define(function () {
             type: 'grocery'
         },
         {
-            name: 'CORN FLOUR',
+            name: 'CORN FLOUR (60/kg)',
             q1: '3',
             q2: '6',
             q3: '15',
@@ -401,7 +401,7 @@ define(function () {
             type: 'grocery'
         },
         {
-            name: 'DALI GONDH',
+            name: 'DALI GONDH (320/kg)',
             q1: '16',
             q2: '32',
             q3: '80',
@@ -411,7 +411,7 @@ define(function () {
             type: 'grocery'
         },
         {
-            name: 'DIAMOND MISRI',
+            name: 'DIAMOND MISRI (80/kg)',
             q1: '4',
             q2: '8',
             q3: '20',
@@ -421,7 +421,7 @@ define(function () {
             type: 'grocery'
         },
         {
-            name: 'DRY CHILLI',
+            name: 'DRY CHILLI (200/kg)',
             q1: '10',
             q2: '20',
             q3: '50',
@@ -431,7 +431,7 @@ define(function () {
             type: 'grocery'
         },
         {
-            name: 'EATING SODA',
+            name: 'EATING SODA (100/kg)',
             q1: '5',
             q2: '10',
             q3: '25',
@@ -441,7 +441,7 @@ define(function () {
             type: 'grocery'
         },
         {
-            name: 'FINE POHA',
+            name: 'FINE POHA (64/kg)',
             q1: '3.2',
             q2: '6.4',
             q3: '16',
@@ -451,7 +451,7 @@ define(function () {
             type: 'grocery'
         },
         {
-            name: 'FRYMES',
+            name: 'FRYMES (90/kg)',
             q1: '4.5',
             q2: '9',
             q3: '22.5',
@@ -461,7 +461,7 @@ define(function () {
             type: 'grocery'
         },
         {
-            name: 'GOLD FINGER',
+            name: 'GOLD FINGER (60/kg)',
             q1: '3',
             q2: '6',
             q3: '15',
@@ -471,7 +471,7 @@ define(function () {
             type: 'grocery'
         },
         {
-            name: 'GOTA KHOPRA',
+            name: 'GOTA KHOPRA (200/kg)',
             q1: '10',
             q2: '20',
             q3: '50',
@@ -481,7 +481,7 @@ define(function () {
             type: 'grocery'
         },
         {
-            name: 'GREEN PEAS',
+            name: 'GREEN PEAS (200/kg)',
             q1: '10',
             q2: '20',
             q3: '50',
@@ -491,7 +491,7 @@ define(function () {
             type: 'grocery'
         },
         {
-            name: 'IDLY RAVA',
+            name: 'IDLY RAVA (38/kg)',
             q1: '1.90',
             q2: '3.80',
             q3: '9.5',
@@ -501,7 +501,7 @@ define(function () {
             type: 'grocery'
         },
         {
-            name: 'JAGGERY KOLHAPURI',
+            name: 'JAGGERY KOLHAPURI (65/kg)',
             q1: '3.25',
             q2: '6.5',
             q3: '16.25',
@@ -511,7 +511,7 @@ define(function () {
             type: 'grocery'
         },
         {
-            name: 'JAGGERY POWDER NATURAL',
+            name: 'JAGGERY POWDER NATURAL (110/kg)',
             q1: '5.5',
             q2: '11',
             q3: '27.5',
@@ -521,7 +521,7 @@ define(function () {
             type: 'grocery'
         },
         {
-            name: 'JAWARI',
+            name: 'JAWARI (75/kg)',
             q1: '3.75',
             q2: '7.5',
             q3: '18.75',
@@ -531,7 +531,7 @@ define(function () {
             type: 'grocery'
         },
         {
-            name: 'JAWARI ATTA',
+            name: 'JAWARI ATTA (62/kg)',
             q1: '3.1',
             q2: '6.2',
             q3: '15.5',
@@ -541,7 +541,7 @@ define(function () {
             type: 'grocery'
         },
         {
-            name: 'KABULI CHANA',
+            name: 'KABULI CHANA (110/kg)',
             q1: '5.5',
             q2: '11',
             q3: '27.5',
@@ -551,7 +551,7 @@ define(function () {
             type: 'grocery'
         },
         {
-            name: 'KESARI RAWA',
+            name: 'KESARI RAWA (52/kg)',
             q1: '2.6',
             q2: '5.2',
             q3: '13',
@@ -561,7 +561,7 @@ define(function () {
             type: 'grocery'
         },
         {
-            name: 'KHOPRA POWDER',
+            name: 'KHOPRA POWDER1 (240/kg)',
             q1: '12',
             q2: '24',
             q3: '60',
@@ -571,7 +571,7 @@ define(function () {
             type: 'grocery'
         },
         {
-            name: 'KULTI BLACK',
+            name: 'KULTI BLACK (80/kg)',
             q1: '4',
             q2: '8',
             q3: '20',
@@ -581,7 +581,7 @@ define(function () {
             type: 'grocery'
         },
         {
-            name: 'KULTI WHITE',
+            name: 'KULTI WHITE (80/kg)',
             q1: '4',
             q2: '8',
             q3: '20',
@@ -591,7 +591,7 @@ define(function () {
             type: 'grocery'
         },
         {
-            name: 'MAIDA',
+            name: 'MAIDA (44/kg)',
             q1: '2.20',
             q2: '4.40',
             q3: '11',
@@ -601,7 +601,7 @@ define(function () {
             type: 'grocery'
         },
         {
-            name: 'MAKKAI ATTA',
+            name: 'MAKKAI ATTA (65/kg)',
             q1: '3.25',
             q2: '6.5',
             q3: '16.25',
@@ -611,7 +611,7 @@ define(function () {
             type: 'grocery'
         },
         {
-            name: 'MAKKAI POHA 400GMS',
+            name: 'MAKKAI POHA (80/kg)',
             q1: '4',
             q2: '8',
             q3: '20',
@@ -621,7 +621,7 @@ define(function () {
             type: 'grocery'
         },
         {
-            name: 'MASOOR DAL (RED)',
+            name: 'MASOOR DAL (RED) (105/kg)',
             q1: '5.25',
             q2: '10.5',
             q3: '26.25',
@@ -631,7 +631,7 @@ define(function () {
             type: 'grocery'
         },
         {
-            name: 'MASOOR WHOLE(BLACK)',
+            name: 'MASOOR WHOLE(BLACK) (105/kg)',
             q1: '5.25',
             q2: '10.5',
             q3: '26.25',
@@ -641,7 +641,7 @@ define(function () {
             type: 'grocery'
         },
         {
-            name: 'MEAL MAKER (SOYA CHUNKS)',
+            name: 'MEAL MAKER (SOYA CHUNKS) (100/kg)',
             q1: '5',
             q2: '10',
             q3: '25',
@@ -651,7 +651,7 @@ define(function () {
             type: 'grocery'
         },
         {
-            name: 'MEDIUM WHEAT RAWA',
+            name: 'MEDIUM WHEAT RAWA (52/kg)',
             q1: '2.6',
             q2: '5.2',
             q3: '13',
@@ -661,7 +661,7 @@ define(function () {
             type: 'grocery'
         },
         {
-            name: 'MOONG CHILKA',
+            name: 'MOONG CHILKA (120/kg)',
             q1: '6',
             q2: '12',
             q3: '30',
@@ -671,7 +671,7 @@ define(function () {
             type: 'grocery'
         },
         {
-            name: 'MOONGDAL',
+            name: 'MOONGDAL (118/kg)',
             q1: '5.9',
             q2: '11.8',
             q3: '29.5',
@@ -681,7 +681,7 @@ define(function () {
             type: 'grocery'
         },
         {
-            name: 'MOOTH',
+            name: 'MOOTH (100/kg)',
             q1: '5',
             q2: '10',
             q3: '25',
@@ -691,7 +691,7 @@ define(function () {
             type: 'grocery'
         },
         {
-            name: 'MOTA MISRI',
+            name: 'MOTA MISRI (80/kg)',
             q1: '4',
             q2: '8',
             q3: '20',
@@ -701,7 +701,7 @@ define(function () {
             type: 'grocery'
         },
         {
-            name: 'MOTA POHA',
+            name: 'MOTA POHA (55/kg)',
             q1: '2.75',
             q2: '5.5',
             q3: '13.75',
@@ -711,7 +711,7 @@ define(function () {
             type: 'grocery'
         },
         {
-            name: 'MOTA SOUNF',
+            name: 'MOTA SOUNF (250/kg)',
             q1: '12.5',
             q2: '25',
             q3: '62.5',
@@ -721,7 +721,7 @@ define(function () {
             type: 'grocery'
         },
         {
-            name: 'MURMURA 500GMS',
+            name: 'MURMURA (45/kg)',
             q1: '2.25',
             q2: '4.5',
             q3: '11.25',
@@ -731,7 +731,7 @@ define(function () {
             type: 'grocery'
         },
         {
-            name: 'PALLI',
+            name: 'PALLI (120/kg)',
             q1: '6',
             q2: '12',
             q3: '30',
@@ -741,7 +741,7 @@ define(function () {
             type: 'grocery'
         },
         {
-            name: 'PAPAD (APPALAM)',
+            name: 'PAPAD (APPALAM) (250/kg)',
             q1: '12.5',
             q2: '25',
             q3: '62.5',
@@ -751,7 +751,7 @@ define(function () {
             type: 'grocery'
         },
         {
-            name: 'PAPAD (MARWADI)',
+            name: 'PAPAD (MARWADI) (240/kg)',
             q1: '12',
             q2: '24',
             q3: '60',
@@ -761,7 +761,7 @@ define(function () {
             type: 'grocery'
         },
         {
-            name: 'PHUTANA',
+            name: 'PHUTANA (95/kg)',
             q1: '4.75',
             q2: '9.5',
             q3: '23.75',
@@ -771,7 +771,7 @@ define(function () {
             type: 'grocery'
         },
         {
-            name: 'POOJA SUPARI',
+            name: 'POOJA SUPARI (440/kg)',
             q1: '22',
             q2: '44',
             q3: '110',
@@ -781,7 +781,7 @@ define(function () {
             type: 'grocery'
         },
         {
-            name: 'POPCORN SEEDS',
+            name: 'POPCORN SEEDS (120/kg)',
             q1: '6',
             q2: '12',
             q3: '30',
@@ -791,7 +791,7 @@ define(function () {
             type: 'grocery'
         },
         {
-            name: 'RAAGI ATTA',
+            name: 'RAAGI ATTA (52/kg)',
             q1: '2.6',
             q2: '5.2',
             q3: '13',
@@ -801,7 +801,7 @@ define(function () {
             type: 'grocery'
         },
         {
-            name: 'RAGI',
+            name: 'RAGI (50/kg)',
             q1: '2.5',
             q2: '5',
             q3: '12.5',
@@ -811,7 +811,7 @@ define(function () {
             type: 'grocery'
         },
         {
-            name: 'RAWA SUPARI',
+            name: 'RAWA SUPARI (550/kg)',
             q1: '27.5',
             q2: '55',
             q3: '137.5',
@@ -821,7 +821,7 @@ define(function () {
             type: 'grocery'
         },
         {
-            name: 'RED CHANA',
+            name: 'RED CHANA (78/kg)',
             q1: '3.90',
             q2: '7.80',
             q3: '19.5',
@@ -831,7 +831,7 @@ define(function () {
             type: 'grocery'
         },
         {
-            name: 'RED LOBIYA',
+            name: 'RED LOBIYA (105/kg)',
             q1: '5.25',
             q2: '10.5',
             q3: '26.25',
@@ -841,7 +841,7 @@ define(function () {
             type: 'grocery'
         },
         {
-            name: 'RED RAJMA',
+            name: 'RED RAJMA (120/kg)',
             q1: '6',
             q2: '12',
             q3: '30',
@@ -851,7 +851,7 @@ define(function () {
             type: 'grocery'
         },
         {
-            name: 'RETHA (SOAP NUT)',
+            name: 'RETHA (SOAP NUT) (140/kg)',
             q1: '7',
             q2: '14',
             q3: '35',
@@ -861,7 +861,7 @@ define(function () {
             type: 'grocery'
         },
         {
-            name: 'RICE AMBAMORE',
+            name: 'RICE AMBAMORE (96/kg)',
             q1: '4.80',
             q2: '9.60',
             q3: '24',
@@ -871,7 +871,7 @@ define(function () {
             type: 'grocery'
         },
         {
-            name: 'RICE ATTA',
+            name: 'RICE ATTA (40/kg)',
             q1: '2',
             q2: '4',
             q3: '10',
@@ -881,7 +881,7 @@ define(function () {
             type: 'grocery'
         },
         {
-            name: 'RICE HMT 25KG',
+            name: 'RICE HMT (90/kg)',
             q1: '3.2',
             q2: '6.4',
             q3: '16',
@@ -891,7 +891,7 @@ define(function () {
             type: 'grocery'
         },
         {
-            name: 'SABJA',
+            name: 'SABJA (300/kg)',
             q1: '15',
             q2: '30',
             q3: '75',
@@ -901,7 +901,7 @@ define(function () {
             type: 'grocery'
         },
         {
-            name: 'SABUDANA',
+            name: 'SABUDANA (80/kg)',
             q1: '4',
             q2: '8',
             q3: '20',
@@ -911,7 +911,7 @@ define(function () {
             type: 'grocery'
         },
         {
-            name: 'SAGO MOTI',
+            name: 'SAGO MOTI (75/kg)',
             q1: '3.75',
             q2: '7.5',
             q3: '18.75',
@@ -921,7 +921,7 @@ define(function () {
             type: 'grocery'
         },
         {
-            name: 'SENDHA SALT POWDER',
+            name: 'SENDHA SALT POWDER (60/kg)',
             q1: '3',
             q2: '6',
             q3: '15',
@@ -931,7 +931,7 @@ define(function () {
             type: 'grocery'
         },
         {
-            name: 'SHARMILI RAJMA (RED)',
+            name: 'SHARMILI RAJMA (RED) (120/kg)',
             q1: '6',
             q2: '12',
             q3: '30',
@@ -941,7 +941,7 @@ define(function () {
             type: 'grocery'
         },
         {
-            name: 'SHIKAKAI',
+            name: 'SHIKAKAI (250/kg)',
             q1: '12.5',
             q2: '25',
             q3: '62.5',
@@ -951,7 +951,7 @@ define(function () {
             type: 'grocery'
         },
         {
-            name: 'SMALL SAUNF',
+            name: 'SMALL SAUNF (240/kg)',
             q1: '12',
             q2: '24',
             q3: '60',
@@ -961,7 +961,7 @@ define(function () {
             type: 'grocery'
         },
         {
-            name: 'SUGAR',
+            name: 'SUGAR (39/kg)',
             q1: '1.95',
             q2: '3.90',
             q3: '9.75',
@@ -971,7 +971,7 @@ define(function () {
             type: 'grocery'
         },
         {
-            name: 'SUKHMUKH (DHANA DAL)',
+            name: 'SUKHMUKH (DHANA DAL) (240/kg)',
             q1: '12',
             q2: '24',
             q3: '60',
@@ -981,7 +981,7 @@ define(function () {
             type: 'grocery'
         },
         {
-            name: 'SWEET SAUNF',
+            name: 'SWEET SAUNF (100/kg)',
             q1: '5',
             q2: '10',
             q3: '25',
@@ -991,7 +991,7 @@ define(function () {
             type: 'grocery'
         },
         {
-            name: 'TAMARIND (EMILI)',
+            name: 'TAMARIND (EMILI) (280/kg)',
             q1: '14',
             q2: '28',
             q3: '70',
@@ -1001,7 +1001,7 @@ define(function () {
             type: 'grocery'
         },
         {
-            name: 'TARBOOJ SEEDS',
+            name: 'TARBOOJ SEEDS (240/kg)',
             q1: '12',
             q2: '24',
             q3: '60',
@@ -1011,7 +1011,7 @@ define(function () {
             type: 'grocery'
         },
         {
-            name: 'TOOR DAL',
+            name: 'TOOR DAL (98/kg)',
             q1: '4.90',
             q2: '9.80',
             q3: '24.5',
@@ -1021,7 +1021,7 @@ define(function () {
             type: 'grocery'
         },
         {
-            name: 'TRUTI FRUTI',
+            name: 'TRUTI FRUTI (120/kg)',
             q1: '6',
             q2: '12',
             q3: '30',
@@ -1031,7 +1031,7 @@ define(function () {
             type: 'grocery'
         },
         {
-            name: 'UPMA RAVA(BOMBAY RAVA)',
+            name: 'UPMA RAVA(BOMBAY RAVA) (44/kg)',
             q1: '2.20',
             q2: '4.40',
             q3: '11',
@@ -1041,7 +1041,7 @@ define(function () {
             type: 'grocery'
         },
         {
-            name: 'URAD CHILKA',
+            name: 'URAD CHILKA (120/kg)',
             q1: '6',
             q2: '12',
             q3: '30',
@@ -1051,7 +1051,7 @@ define(function () {
             type: 'grocery'
         },
         {
-            name: 'URAD DAL',
+            name: 'URAD DAL (125/kg)',
             q1: '6.25',
             q2: '12.5',
             q3: '31.25',
@@ -1061,7 +1061,7 @@ define(function () {
             type: 'grocery'
         },
         {
-            name: 'URAD DAL (BLACK)',
+            name: 'URAD DAL (BLACK) (120/kg)',
             q1: '6',
             q2: '12',
             q3: '30',
@@ -1071,7 +1071,7 @@ define(function () {
             type: 'grocery'
         },
         {
-            name: 'VAKKAL',
+            name: 'VAKKAL (900/kg)',
             q1: '45',
             q2: '90',
             q3: '225',
@@ -1081,7 +1081,7 @@ define(function () {
             type: 'grocery'
         },
         {
-            name: 'WHITE LOBIYA',
+            name: 'WHITE LOBIYA (100/kg)',
             q1: '5',
             q2: '10',
             q3: '25',
@@ -1091,7 +1091,7 @@ define(function () {
             type: 'grocery'
         },
         {
-            name: 'WHITE PEAS',
+            name: 'WHITE PEAS (100/kg)',
             q1: '5',
             q2: '10',
             q3: '25',
@@ -1101,7 +1101,7 @@ define(function () {
             type: 'grocery'
         },
         {
-            name: 'WHITE RAJMA',
+            name: 'WHITE RAJMA (130/kg)',
             q1: '6.5',
             q2: '13',
             q3: '32.5',
@@ -1111,7 +1111,7 @@ define(function () {
             type: 'grocery'
         },
         {
-            name: 'AJINOMOTO',
+            name: 'AJINOMOTO (180/kg)',
             q1: '9',
             q2: '18',
             q3: '45',
@@ -1121,7 +1121,7 @@ define(function () {
             type: 'spices'
         },
         {
-            name: 'AJWAIN',
+            name: 'AJWAIN (300/kg)',
             q1: '15',
             q2: '30',
             q3: '75',
@@ -1131,7 +1131,7 @@ define(function () {
             type: 'spices'
         },
         {
-            name: 'BARLEY',
+            name: 'BARLEY (70/kg)',
             q1: '3.5',
             q2: '7',
             q3: '17.5',
@@ -1141,7 +1141,7 @@ define(function () {
             type: 'spices'
         },
         {
-            name: 'BIRYANI PHOOL',
+            name: 'BIRYANI PHOOL (1200/kg)',
             q1: '60',
             q2: '120',
             q3: '300',
@@ -1151,7 +1151,7 @@ define(function () {
             type: 'spices'
         },
         {
-            name: 'CURD CHILLY',
+            name: 'CURD CHILLY (300/kg )',
             q1: '15',
             q2: '30',
             q3: '75',
@@ -1161,7 +1161,7 @@ define(function () {
             type: 'spices'
         },
         {
-            name: 'DAL CHINI',
+            name: 'DAL CHINI (380/kg)',
             q1: '19',
             q2: '38',
             q3: '95',
@@ -1171,7 +1171,7 @@ define(function () {
             type: 'spices'
         },
         {
-            name: 'DHANIYA',
+            name: 'DHANIYA (180/kg)',
             q1: '9',
             q2: '18',
             q3: '45',
@@ -1181,7 +1181,7 @@ define(function () {
             type: 'spices'
         },
         {
-            name: 'ELACHI',
+            name: 'ELACHI (3400/kg)',
             q1: '170',
             q2: '340',
             q3: '850',
@@ -1191,7 +1191,7 @@ define(function () {
             type: 'spices'
         },
         {
-            name: 'ELACHI BLACK',
+            name: 'ELACHI BLACK (1200/kg)',
             q1: '60',
             q2: '120',
             q3: '300',
@@ -1201,7 +1201,7 @@ define(function () {
             type: 'spices'
         },
         {
-            name: 'HALDI GOTTO',
+            name: 'HALDI GOTTO (95/kg)',
             q1: '4.75',
             q2: '9.5',
             q3: '23.75',
@@ -1211,7 +1211,7 @@ define(function () {
             type: 'spices'
         },
         {
-            name: 'HALDI STICK',
+            name: 'HALDI STICK (120/kg)',
             q1: '6',
             q2: '12',
             q3: '30',
@@ -1221,7 +1221,7 @@ define(function () {
             type: 'spices'
         },
         {
-            name: 'HING KHADA',
+            name: 'HING KHADA (1500/kg)',
             q1: '75',
             q2: '150',
             q3: '375',
@@ -1231,7 +1231,7 @@ define(function () {
             type: 'spices'
         },
         {
-            name: 'HING POWDER 50 GMS',
+            name: 'HING POWDER (75/kg)',
             q1: '3.75',
             q2: '7.5',
             q3: '18.75',
@@ -1241,7 +1241,7 @@ define(function () {
             type: 'spices'
         },
         {
-            name: 'JAIFHAL',
+            name: 'JAIFHAL (1200/kg)',
             q1: '60',
             q2: '120',
             q3: '300',
@@ -1251,7 +1251,7 @@ define(function () {
             type: 'spices'
         },
         {
-            name: 'JAVATRI',
+            name: 'JAVATRI (3000/kg)',
             q1: '150',
             q2: '300',
             q3: '750',
@@ -1261,7 +1261,7 @@ define(function () {
             type: 'spices'
         },
         {
-            name: 'JEERA',
+            name: 'JEERA (240/kg)',
             q1: '12',
             q2: '24',
             q3: '60',
@@ -1271,7 +1271,7 @@ define(function () {
             type: 'spices'
         },
         {
-            name: 'KALI MIRCH',
+            name: 'KALI MIRCH (580/kg)',
             q1: '29',
             q2: '58',
             q3: '145',
@@ -1281,7 +1281,7 @@ define(function () {
             type: 'spices'
         },
         {
-            name: 'KALONJI',
+            name: 'KALONJI (450/kg)',
             q1: '22.5',
             q2: '45',
             q3: '112.5',
@@ -1291,7 +1291,7 @@ define(function () {
             type: 'spices'
         },
         {
-            name: 'KARAN PHOOL',
+            name: 'KARAN PHOOL (1500/kg)',
             q1: '50',
             q2: '100',
             q3: '250',
@@ -1301,7 +1301,7 @@ define(function () {
             type: 'spices'
         },
         {
-            name: 'KAWAB CHINI',
+            name: 'KAWAB CHINI (4000/kg)',
             q1: '200',
             q2: '400',
             q3: '1000',
@@ -1311,7 +1311,7 @@ define(function () {
             type: 'spices'
         },
         {
-            name: 'KESAR 1 GMS',
+            name: 'KESAR (160/kg)',
             q1: '8',
             q2: '16',
             q3: '40',
@@ -1321,7 +1321,7 @@ define(function () {
             type: 'spices'
         },
         {
-            name: 'KHOPRA',
+            name: 'KHOPRA (220/kg)',
             q1: '11',
             q2: '22',
             q3: '55',
@@ -1331,7 +1331,7 @@ define(function () {
             type: 'spices'
         },
         {
-            name: 'KHUSKUS',
+            name: 'KHUSKUS (1400/kg)',
             q1: '70',
             q2: '140',
             q3: '350',
@@ -1341,7 +1341,7 @@ define(function () {
             type: 'spices'
         },
         {
-            name: 'LAVANG',
+            name: 'LAVANG (900/kg)',
             q1: '45',
             q2: '90',
             q3: '225',
@@ -1351,7 +1351,7 @@ define(function () {
             type: 'spices'
         },
         {
-            name: 'METHI',
+            name: 'METHI (110/kg)',
             q1: '5.5',
             q2: '11',
             q3: '27.5',
@@ -1361,7 +1361,7 @@ define(function () {
             type: 'spices'
         },
         {
-            name: 'PAN METHI (KASTURI METHI)',
+            name: 'PAN METHI (KASTURI METHI) (250/kg)',
             q1: '12.5',
             q2: '25',
             q3: '62.5',
@@ -1371,7 +1371,7 @@ define(function () {
             type: 'spices'
         },
         {
-            name: 'RAI',
+            name: 'RAI (80/kg)',
             q1: '4',
             q2: '8',
             q3: '20',
@@ -1381,7 +1381,7 @@ define(function () {
             type: 'spices'
         },
         {
-            name: 'SHAH JEERA',
+            name: 'SHAH JEERA (900/kg)',
             q1: '45',
             q2: '90',
             q3: '225',
@@ -1391,7 +1391,7 @@ define(function () {
             type: 'spices'
         },
         {
-            name: 'SONTH',
+            name: 'SONTH (580/kg)',
             q1: '29',
             q2: '58',
             q3: '145',
@@ -1401,7 +1401,7 @@ define(function () {
             type: 'spices'
         },
         {
-            name: 'TEJ PATTA',
+            name: 'TEJ PATTA (300/kg)',
             q1: '15',
             q2: '30',
             q3: '75',
@@ -1411,7 +1411,7 @@ define(function () {
             type: 'spices'
         },
         {
-            name: 'TILLI',
+            name: 'TILLI (140/kg)',
             q1: '7',
             q2: '14',
             q3: '35',
@@ -1421,7 +1421,7 @@ define(function () {
             type: 'spices'
         },
         {
-            name: 'TILLI (BLACK)',
+            name: 'TILLI (BLACK) (250/kg)',
             q1: '12.5',
             q2: '25',
             q3: '62.5',
@@ -1431,7 +1431,7 @@ define(function () {
             type: 'spices'
         },
         {
-            name: 'TILLI (NYLON)',
+            name: 'TILLI (NYLON) (200/kg)',
             q1: '10',
             q2: '20',
             q3: '50',
