@@ -13,7 +13,8 @@
         "copy-require": "copyfiles -f src/scripts/require.js dist/scripts/",
         "terser": "terser src/scripts/main.js -c -o dist/scripts/main.js && terser src/scripts/inventory.js -c -o dist/scripts/inventory.js",
         "min-js": "npm run copy-require && npm run terser",
-        "build": "npm run clean && npm run imagemin && npm run usemin && npm run min-js"
+        "build": "npm run clean && npm run imagemin && npm run usemin && npm run min-js",
+        "build-zip": "bestzip build.zip dist/*"
     },
     "husky": {
         "hooks": {
@@ -31,6 +32,7 @@
     },
     "homepage": "https://github.com/GOMEGA-PRO/GOMEGA#readme",
     "devDependencies": {
+        "bestzip": "^2.1.7",
         "copyfiles": "^2.3.0",
         "cssmin": "^0.4.3",
         "htmlmin": "0.0.7",
