@@ -13,12 +13,13 @@
         "copy-require": "copyfiles -f src/scripts/require.js dist/scripts/",
         "terser": "terser src/scripts/main.js -c -o dist/scripts/main.js && terser src/scripts/inventory.js -c -o dist/scripts/inventory.js",
         "min-js": "npm run copy-require && npm run terser",
-        "build": "npm run clean && npm run imagemin && npm run usemin && npm run min-js",
+        "docs": "copyfiles -f dist/* docs",
+        "build": "npm run clean && npm run imagemin && npm run usemin && npm run min-js && npm run docs",
         "build-zip": "bestzip build.zip dist/*"
     },
     "husky": {
         "hooks": {
-            "pre-commit": "npm run prettify"
+            "pre-commit": "npm run prettify "
         }
     },
     "repository": {
