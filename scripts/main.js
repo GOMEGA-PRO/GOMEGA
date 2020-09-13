@@ -49,7 +49,6 @@ function generateAccordionData(data, category, index) {
     const accordion = getAccordionElement(category, index);
     generateTableHeader(accordion);
     generateTableBody(products, category, accordion);
-
     return accordion;
 }
 
@@ -62,7 +61,7 @@ function getAccordionElement(category, index) {
             </div>
             <div
                 id="collapse_${index}"
-                class="collapse show"
+                class="collapse"
                 data-parent="#accordion"
             >
                 <div class="card-body">
