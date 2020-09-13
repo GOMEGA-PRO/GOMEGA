@@ -1,0 +1,112 @@
+h2 {
+    font-family: sans-serif;
+    color: black;
+}
+body {
+    font-family: 'Lato', sans-serif;
+    font-weight: normal;
+    color: rgba(18, 18, 18, 0.7);
+    font-size: 16px;
+    position: relative;
+}
+
+.button {
+    border: none;
+    color: white;
+    padding: 9px 18px;
+    background-color: #25d366;
+    font-size: 18px;
+    border-radius: 5px;
+}
+.fa-whatsapp {
+    margin-left: 10px;
+}
+header {
+    height: 100px;
+}
+
+.tg {
+    border-collapse: collapse;
+    border-color: #ccc;
+    margin-left: auto;
+    margin-right: 10px;
+}
+.tg th {
+    background-color: #285a84;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    overflow: hidden;
+    padding: 20px 20px;
+    word-break: normal;
+    border: solid 2px black;
+    font-family: 'Arial Black', Gadget, sans-serif !important;
+    /*vertical-align: top;*/
+}
+
+.table-data-item {
+    border: solid 2px black;
+    background: #c2ef7e;
+    font-family: 'Courier New', Courier, monospace !important;
+    font-weight: bold;
+    vertical-align: top;
+}
+nav {
+    box-shadow: none;
+    background-color: #c2ef7e;
+}
+.card-body {
+    overflow-x: auto;
+}
+
+.table-bordered td {
+    border: 2px solid black;
+}
+.dropdown-content a:hover {
+    background-color: #a4e248;
+}
+.menu-item {
+    font-size: 16px;
+    margin-right: 8px;
+    font-family: Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif;
+    padding: 20px !important;
+    color: #285a84 !important;
+}
+.hover :hover {
+    background-color: #a4e248;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.card-header {
+    cursor: pointer;
+}
+
+th,
+td {
+    max-width: 100px;
+}
+
+input[type='number'] {
+    width: 100%;
+}
+
+.bulk-order {
+    display: flex;
+}
+.total-amount {
+    margin-left: 10px;
+    width: 50%;
+}
+
+i {
+    color: #285a84;
+}
+
+#navbarCollapse {
+    justify-content: center;
+}
+
+.navbar-brand {
+    margin-left: 1.5rem;
+}
