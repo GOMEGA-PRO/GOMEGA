@@ -224,7 +224,7 @@ function getQuantityMultiplier(qid) {
     return multipliers[qid];
 }
 
-function updateOrder(id, quantity, rate) {
+function updateOrder(id, quantity, rate, needUpdateLocalOrder = true) {
     const currentOrders = window.currentOrders;
     const order = currentOrders.find((item) => item.id === id);
     if (order) {
@@ -241,7 +241,8 @@ function updateOrder(id, quantity, rate) {
         };
         currentOrders.push(newOrder);
     }
-    updateLocalCounter(id);
+    if (needUpdateLocalOrder) updateLocalCounter(id);
+
     updateGlobalCounter();
 }
 
@@ -269,9 +270,9 @@ function updateGlobalCounter() {
 
 function updateCheckBoxOrder(id, quantity, rate, checked) {
     if (checked) {
-        updateOrder(id, quantity, rate);
+        updateOrder(id, quantity, rate, false);
     } else {
-        updateOrder(id, 0, rate);
+        updateOrder(id, 0, rate, false);
     }
     clearBulkOrderInputText(id);
 }
