@@ -1,6 +1,6 @@
 define((function(){const data=[
 	{
-		"name": "Kaju Premium(â‚¹ 940/Kg)",
+		"name": "Kaju Premium(940/Kg)",
 		"q1": "",
 		"q2": "117.5",
 		"q3": "235",
@@ -10,7 +10,7 @@ define((function(){const data=[
 		"type": "DRY FRUITS "
 	},
 	{
-		"name": "Kaju Regular (â‚¹ 820/Kg)",
+		"name": "Kaju Regular (820/Kg)",
 		"q1": "",
 		"q2": "102.5",
 		"q3": "205",
@@ -20,7 +20,7 @@ define((function(){const data=[
 		"type": "DRYFRUITS"
 	},
 	{
-		"name": "Mamra Badam(â‚¹ 3000/Kg)",
+		"name": "Mamra Badam(3000/Kg)",
 		"q1": "",
 		"q2": "375",
 		"q3": "750",
@@ -30,7 +30,7 @@ define((function(){const data=[
 		"type": "DRYFRUITS"
 	},
 	{
-		"name": "Badam Regular(â‚¹ 620/Kg)",
+		"name": "Badam Regular(620/Kg)",
 		"q1": "",
 		"q2": "77.5",
 		"q3": "155",
@@ -40,7 +40,7 @@ define((function(){const data=[
 		"type": "DRYFRUITS"
 	},
 	{
-		"name": "Badam Premium(â‚¹ 780/Kg)",
+		"name": "Badam Premium(780/Kg)",
 		"q1": "",
 		"q2": "97.5",
 		"q3": "195",
@@ -50,7 +50,7 @@ define((function(){const data=[
 		"type": "DRYFRUITS"
 	},
 	{
-		"name": "Pista Salted (â‚¹ 960/Kg)",
+		"name": "Pista Salted (960/Kg)",
 		"q1": "",
 		"q2": "120",
 		"q3": "240",
@@ -60,7 +60,7 @@ define((function(){const data=[
 		"type": "DRYFRUITS"
 	},
 	{
-		"name": "Pista Plain (â‚¹1300/Kg)",
+		"name": "Pista Plain (1300/Kg)",
 		"q1": "",
 		"q2": "162.5",
 		"q3": "325",
@@ -70,7 +70,7 @@ define((function(){const data=[
 		"type": "DRYFRUITS"
 	},
 	{
-		"name": "Manuka (â‚¹ 640/Kg)",
+		"name": "Manuka (640/Kg)",
 		"q1": "",
 		"q2": "80",
 		"q3": "160",
@@ -80,7 +80,7 @@ define((function(){const data=[
 		"type": "DRYFRUITS"
 	},
 	{
-		"name": "Kishmish Premium (â‚¹ 520/Kg)",
+		"name": "Kishmish Premium (520/Kg)",
 		"q1": "",
 		"q2": "65",
 		"q3": "130",
@@ -90,7 +90,7 @@ define((function(){const data=[
 		"type": "DRYFRUITS"
 	},
 	{
-		"name": "Kishmish Black (â‚¹540/Kg)",
+		"name": "Kishmish Black (540/Kg)",
 		"q1": "",
 		"q2": "67.5",
 		"q3": "135",
@@ -100,7 +100,7 @@ define((function(){const data=[
 		"type": "DRYFRUITS"
 	},
 	{
-		"name": "Kishmish Green (â‚¹ 320/Kg)",
+		"name": "Kishmish Green (320/Kg)",
 		"q1": "",
 		"q2": "40",
 		"q3": "80",
@@ -110,7 +110,7 @@ define((function(){const data=[
 		"type": "DRYFRUITS"
 	},
 	{
-		"name": "Anjeer (â‚¹ 1140/kg)",
+		"name": "Anjeer (1140/kg)",
 		"q1": "",
 		"q2": "142.5",
 		"q3": "285",
@@ -120,7 +120,7 @@ define((function(){const data=[
 		"type": "DRYFRUITS"
 	},
 	{
-		"name": "Walnut Kernels (â‚¹1200/Kg)",
+		"name": "Walnut Kernels (1200/Kg)",
 		"q1": "",
 		"q2": "150",
 		"q3": "300",
@@ -130,7 +130,7 @@ define((function(){const data=[
 		"type": "DRYFRUITS"
 	},
 	{
-		"name": "Apricot/Jardalu (â‚¹ 600/Kg)",
+		"name": "Apricot/Jardalu (600/Kg)",
 		"q1": "",
 		"q2": "75",
 		"q3": "150",
@@ -140,7 +140,7 @@ define((function(){const data=[
 		"type": "DRYFRUITS"
 	},
 	{
-		"name": "Pine Nut/Chilgoza Magaz (â‚¹6800/Kg)",
+		"name": "Pine Nut/Chilgoza Magaz (6800/Kg)",
 		"q1": "",
 		"q2": "850",
 		"q3": "1700",
@@ -150,7 +150,7 @@ define((function(){const data=[
 		"type": "DRYFRUITS"
 	},
 	{
-		"name": "Chironji (â‚¹ 1600/Kg)",
+		"name": "Chironji (1600/Kg)",
 		"q1": "",
 		"q2": "200",
 		"q3": "400",
@@ -160,7 +160,7 @@ define((function(){const data=[
 		"type": "DRYFRUITS"
 	},
 	{
-		"name": "Dates Seedless (â‚¹ 160/Kg)",
+		"name": "Dates Seedless (160/Kg)",
 		"q1": "",
 		"q2": "20",
 		"q3": "40",
@@ -170,7 +170,7 @@ define((function(){const data=[
 		"type": "DRYFRUITS"
 	},
 	{
-		"name": "Dry Dates / Kharik (â‚¹ 360/Kg)",
+		"name": "Dry Dates / Kharik (360/Kg)",
 		"q1": "",
 		"q2": "45",
 		"q3": "90",
@@ -180,7 +180,7 @@ define((function(){const data=[
 		"type": "DRYFRUITS"
 	},
 	{
-		"name": "Kaju 2Pcs (â‚¹780/Kg)",
+		"name": "Kaju 2Pcs (780/Kg)",
 		"q1": "",
 		"q2": "97.5",
 		"q3": "195",
@@ -190,7 +190,7 @@ define((function(){const data=[
 		"type": "DRYFRUITS"
 	},
 	{
-		"name": "Kaju 4Pcs (â‚¹620/Kg)",
+		"name": "Kaju 4Pcs (620/Kg)",
 		"q1": "",
 		"q2": "77.5",
 		"q3": "155",
@@ -200,7 +200,7 @@ define((function(){const data=[
 		"type": "DRYFRUITS"
 	},
 	{
-		"name": "Dry Alubukhara Red (â‚¹ 300/kg)",
+		"name": "Dry Alubukhara Red (300/kg)",
 		"q1": "",
 		"q2": "37.5",
 		"q3": "75",
@@ -210,7 +210,7 @@ define((function(){const data=[
 		"type": "DRYFRUITS"
 	},
 	{
-		"name": "Chia Seeds (â‚¹ 400/Kg)",
+		"name": "Chia Seeds (400/Kg)",
 		"q1": "",
 		"q2": "50",
 		"q3": "100",
@@ -220,7 +220,7 @@ define((function(){const data=[
 		"type": "Seeds"
 	},
 	{
-		"name": "Sabja (â‚¹ 300/kg)",
+		"name": "Sabja (300/kg)",
 		"q1": "",
 		"q2": "37.5",
 		"q3": "75",
@@ -230,7 +230,7 @@ define((function(){const data=[
 		"type": "Seeds"
 	},
 	{
-		"name": "Makhana (â‚¹ 940/Kg)",
+		"name": "Makhana (940/Kg)",
 		"q1": "",
 		"q2": "117.5",
 		"q3": "235",
@@ -240,7 +240,7 @@ define((function(){const data=[
 		"type": "Seeds"
 	},
 	{
-		"name": "Flax Seeds (alsi) (â‚¹99/kg)",
+		"name": "Flax Seeds (alsi) (99/kg)",
 		"q1": "",
 		"q2": "12.375",
 		"q3": "24.75",
@@ -250,7 +250,7 @@ define((function(){const data=[
 		"type": "Seeds"
 	},
 	{
-		"name": "Pumpkin Seeds (â‚¹ 600/Kg)",
+		"name": "Pumpkin Seeds (600/Kg)",
 		"q1": "",
 		"q2": "75",
 		"q3": "150",
@@ -260,7 +260,7 @@ define((function(){const data=[
 		"type": "Seeds"
 	},
 	{
-		"name": "Sunflower Seeds (â‚¹ 400/Kg)",
+		"name": "Sunflower Seeds (400/Kg)",
 		"q1": "",
 		"q2": "50",
 		"q3": "100",
@@ -270,7 +270,7 @@ define((function(){const data=[
 		"type": "Seeds"
 	},
 	{
-		"name": "Kharbooj Seeds (â‚¹ 500/Kg)",
+		"name": "Kharbooj Seeds (500/Kg)",
 		"q1": "",
 		"q2": "62.5",
 		"q3": "125",
@@ -280,7 +280,7 @@ define((function(){const data=[
 		"type": "Seeds"
 	},
 	{
-		"name": "Tarbooz Seeds (â‚¹ 240/Kg)",
+		"name": "Tarbooz Seeds (240/Kg)",
 		"q1": "",
 		"q2": "30",
 		"q3": "60",
@@ -290,7 +290,7 @@ define((function(){const data=[
 		"type": "Seeds"
 	},
 	{
-		"name": "Fennel Seeds (saunf)(â‚¹ 250/Kg)",
+		"name": "Fennel Seeds (saunf)(250/Kg)",
 		"q1": "",
 		"q2": "31.25",
 		"q3": "62.5",
@@ -300,7 +300,7 @@ define((function(){const data=[
 		"type": "Seeds"
 	},
 	{
-		"name": "Popcorn Seeds (â‚¹ 120/kg)",
+		"name": "Popcorn Seeds (120/kg)",
 		"q1": "",
 		"q2": "15",
 		"q3": "30",
@@ -310,7 +310,7 @@ define((function(){const data=[
 		"type": "Seeds"
 	},
 	{
-		"name": "Toor Dal (â‚¹98/kg)",
+		"name": "Toor Dal (98/kg)",
 		"q1": "",
 		"q2": "12.25",
 		"q3": "24.5",
@@ -320,7 +320,7 @@ define((function(){const data=[
 		"type": "Dals"
 	},
 	{
-		"name": "Chana Dal (â‚¹ 88/kg)",
+		"name": "Chana Dal (88/kg)",
 		"q1": "",
 		"q2": "11",
 		"q3": "22",
@@ -330,7 +330,7 @@ define((function(){const data=[
 		"type": "Dals"
 	},
 	{
-		"name": "White Urad Dal Split (â‚¹ 125/kg)",
+		"name": "White Urad Dal Split (125/kg)",
 		"q1": "",
 		"q2": "15.625",
 		"q3": "31.25",
@@ -340,7 +340,7 @@ define((function(){const data=[
 		"type": "Dals"
 	},
 	{
-		"name": "White Urad Whole (Gundu) (â‚¹ 110/kg)",
+		"name": "White Urad Whole (Gundu) (110/kg)",
 		"q1": "",
 		"q2": "13.75",
 		"q3": "27.5",
@@ -350,7 +350,7 @@ define((function(){const data=[
 		"type": "Dals"
 	},
 	{
-		"name": "Black Urad Dal Split (â‚¹ 120/kg)",
+		"name": "Black Urad Dal Split (120/kg)",
 		"q1": "",
 		"q2": "15",
 		"q3": "30",
@@ -360,7 +360,7 @@ define((function(){const data=[
 		"type": "Dals"
 	},
 	{
-		"name": "Black Urad Whole (â‚¹ 110/kg)",
+		"name": "Black Urad Whole (110/kg)",
 		"q1": "",
 		"q2": "13.75",
 		"q3": "27.5",
@@ -370,7 +370,7 @@ define((function(){const data=[
 		"type": "Dals"
 	},
 	{
-		"name": "Masoor Dal (Red) (â‚¹105/kg)",
+		"name": "Masoor Dal (Red) (105/kg)",
 		"q1": "",
 		"q2": "13.125",
 		"q3": "26.25",
@@ -380,7 +380,7 @@ define((function(){const data=[
 		"type": "Dals"
 	},
 	{
-		"name": "Masoor Whole(Black) (â‚¹105/kg)",
+		"name": "Masoor Whole(Black) (105/kg)",
 		"q1": "",
 		"q2": "13.125",
 		"q3": "26.25",
@@ -390,7 +390,7 @@ define((function(){const data=[
 		"type": "Dals"
 	},
 	{
-		"name": "Green Moong Dal Chilka (â‚¹120/kg)",
+		"name": "Green Moong Dal Chilka (120/kg)",
 		"q1": "",
 		"q2": "15",
 		"q3": "30",
@@ -400,7 +400,7 @@ define((function(){const data=[
 		"type": "Dals"
 	},
 	{
-		"name": "Yellow Moong Dal (â‚¹118/kg)",
+		"name": "Yellow Moong Dal (118/kg)",
 		"q1": "",
 		"q2": "14.75",
 		"q3": "29.5",
@@ -410,7 +410,7 @@ define((function(){const data=[
 		"type": "Dals"
 	},
 	{
-		"name": "White Peas (â‚¹ 100/kg)",
+		"name": "White Peas (100/kg)",
 		"q1": "",
 		"q2": "12.5",
 		"q3": "25",
@@ -420,7 +420,7 @@ define((function(){const data=[
 		"type": "Dals"
 	},
 	{
-		"name": "Green Peas (â‚¹ 200/kg)",
+		"name": "Green Peas (200/kg)",
 		"q1": "",
 		"q2": "25",
 		"q3": "50",
@@ -430,7 +430,7 @@ define((function(){const data=[
 		"type": "Dals"
 	},
 	{
-		"name": "Kulti(Horsegram) Black (â‚¹ 80/kg)",
+		"name": "Kulti(Horsegram) Black (80/kg)",
 		"q1": "",
 		"q2": "10",
 		"q3": "20",
@@ -440,7 +440,7 @@ define((function(){const data=[
 		"type": "Dals"
 	},
 	{
-		"name": "Kulti(Horsegram) White (â‚¹ 80/kg)",
+		"name": "Kulti(Horsegram) White (80/kg)",
 		"q1": "",
 		"q2": "10",
 		"q3": "20",
@@ -450,7 +450,7 @@ define((function(){const data=[
 		"type": "Dals"
 	},
 	{
-		"name": "Green Moong (â‚¹125/kg)",
+		"name": "Green Moong (125/kg)",
 		"q1": "",
 		"q2": "15.625",
 		"q3": "31.25",
@@ -460,7 +460,7 @@ define((function(){const data=[
 		"type": "PULSES"
 	},
 	{
-		"name": "Kabuli Chana (â‚¹110/kg)",
+		"name": "Kabuli Chana (110/kg)",
 		"q1": "",
 		"q2": "13.75",
 		"q3": "27.5",
@@ -470,7 +470,7 @@ define((function(){const data=[
 		"type": "PULSES"
 	},
 	{
-		"name": "Red (Kala) Chana (â‚¹78/kg)",
+		"name": "Red (Kala) Chana (78/kg)",
 		"q1": "",
 		"q2": "9.75",
 		"q3": "19.5",
@@ -480,7 +480,7 @@ define((function(){const data=[
 		"type": "PULSES"
 	},
 	{
-		"name": "Red Lobiya (â‚¹105/kg)",
+		"name": "Red Lobiya (105/kg)",
 		"q1": "",
 		"q2": "13.125",
 		"q3": "26.25",
@@ -490,7 +490,7 @@ define((function(){const data=[
 		"type": "PULSES"
 	},
 	{
-		"name": "White Lobiya (â‚¹ 100/kg)",
+		"name": "White Lobiya (100/kg)",
 		"q1": "",
 		"q2": "12.5",
 		"q3": "25",
@@ -500,7 +500,7 @@ define((function(){const data=[
 		"type": "PULSES"
 	},
 	{
-		"name": "Moth (Matki) (â‚¹100/kg)",
+		"name": "Moth (Matki) (100/kg)",
 		"q1": "",
 		"q2": "12.5",
 		"q3": "25",
@@ -510,7 +510,7 @@ define((function(){const data=[
 		"type": "PULSES"
 	},
 	{
-		"name": "Red Rajma (â‚¹120/kg)",
+		"name": "Red Rajma (120/kg)",
 		"q1": "",
 		"q2": "15",
 		"q3": "30",
@@ -520,7 +520,7 @@ define((function(){const data=[
 		"type": "PULSES"
 	},
 	{
-		"name": "White Rajma (â‚¹ 130/kg)",
+		"name": "White Rajma (130/kg)",
 		"q1": "",
 		"q2": "16.25",
 		"q3": "32.5",
@@ -530,7 +530,7 @@ define((function(){const data=[
 		"type": "PULSES"
 	},
 	{
-		"name": "Sharmili Rajma (Red) (â‚¹120/kg)",
+		"name": "Sharmili Rajma (Red) (120/kg)",
 		"q1": "",
 		"q2": "15",
 		"q3": "30",
@@ -540,7 +540,7 @@ define((function(){const data=[
 		"type": "PULSES"
 	},
 	{
-		"name": "Elachi(Cardamom) (â‚¹ 3400)",
+		"name": "Elachi(Cardamom) (3400)",
 		"q1": "",
 		"q2": "425",
 		"q3": "850",
@@ -550,7 +550,7 @@ define((function(){const data=[
 		"type": "SPICES"
 	},
 	{
-		"name": "Lavang(Clove) (â‚¹ 900/kg)",
+		"name": "Lavang(Clove) (900/kg)",
 		"q1": "",
 		"q2": "112.5",
 		"q3": "225",
@@ -560,7 +560,7 @@ define((function(){const data=[
 		"type": "SPICES"
 	},
 	{
-		"name": "DalChini(Cinnamon) (â‚¹380 kg)",
+		"name": "DalChini(Cinnamon) (380 kg)",
 		"q1": "",
 		"q2": "47.5",
 		"q3": "95",
@@ -570,7 +570,7 @@ define((function(){const data=[
 		"type": "SPICES"
 	},
 	{
-		"name": "Shah Jeera (â‚¹ 900/kg)",
+		"name": "Shah Jeera (900/kg)",
 		"q1": "",
 		"q2": "112.5",
 		"q3": "225",
@@ -580,7 +580,7 @@ define((function(){const data=[
 		"type": "SPICES"
 	},
 	{
-		"name": "Kali Mirch(â‚¹ 580/kg)",
+		"name": "Kali Mirch(580/kg)",
 		"q1": "",
 		"q2": "72.5",
 		"q3": "145",
@@ -590,7 +590,7 @@ define((function(){const data=[
 		"type": "SPICES"
 	},
 	{
-		"name": "Jeera (â‚¹ 240)",
+		"name": "Jeera (240)",
 		"q1": "",
 		"q2": "30",
 		"q3": "60",
@@ -600,7 +600,7 @@ define((function(){const data=[
 		"type": "SPICES"
 	},
 	{
-		"name": "Dhaniya (â‚¹ 180 kg)",
+		"name": "Dhaniya (180 kg)",
 		"q1": "",
 		"q2": "22.5",
 		"q3": "45",
@@ -610,7 +610,7 @@ define((function(){const data=[
 		"type": "SPICES"
 	},
 	{
-		"name": "Rai Big(â‚¹ 80/kg)",
+		"name": "Rai Big(80/kg)",
 		"q1": "",
 		"q2": "10",
 		"q3": "20",
@@ -620,7 +620,7 @@ define((function(){const data=[
 		"type": "SPICES"
 	},
 	{
-		"name": "Rai Small (â‚¹85/kg)",
+		"name": "Rai Small (85/kg)",
 		"q1": "",
 		"q2": "10.625",
 		"q3": "21.25",
@@ -630,7 +630,7 @@ define((function(){const data=[
 		"type": "SPICES"
 	},
 	{
-		"name": "Methi (â‚¹ 110/kg)",
+		"name": "Methi (110/kg)",
 		"q1": "",
 		"q2": "13.75",
 		"q3": "27.5",
@@ -640,7 +640,7 @@ define((function(){const data=[
 		"type": "SPICES"
 	},
 	{
-		"name": "Till (White)(â‚¹ 140/kg)",
+		"name": "Till (White)(140/kg)",
 		"q1": "",
 		"q2": "17.5",
 		"q3": "35",
@@ -650,7 +650,7 @@ define((function(){const data=[
 		"type": "SPICES"
 	},
 	{
-		"name": "Till(Black) (â‚¹ 250/kg)",
+		"name": "Till(Black) (250/kg)",
 		"q1": "",
 		"q2": "31.25",
 		"q3": "62.5",
@@ -660,7 +660,7 @@ define((function(){const data=[
 		"type": "SPICES"
 	},
 	{
-		"name": "Till (Nylon) (â‚¹ 200/kg",
+		"name": "Till (Nylon) (200/kg",
 		"q1": "",
 		"q2": "25",
 		"q3": "50",
@@ -670,7 +670,7 @@ define((function(){const data=[
 		"type": "SPICES"
 	},
 	{
-		"name": "Khuskus (â‚¹ 1400/kg)",
+		"name": "Khuskus (1400/kg)",
 		"q1": "",
 		"q2": "175",
 		"q3": "350",
@@ -680,7 +680,7 @@ define((function(){const data=[
 		"type": "SPICES"
 	},
 	{
-		"name": "Jaifhal (nutmeg) (â‚¹ 1200/kg)",
+		"name": "Jaifhal (nutmeg) (1200/kg)",
 		"q1": "",
 		"q2": "150",
 		"q3": "300",
@@ -690,7 +690,7 @@ define((function(){const data=[
 		"type": "SPICES"
 	},
 	{
-		"name": "Javatri (mace) (â‚¹ 3000/kg)",
+		"name": "Javatri (mace) (3000/kg)",
 		"q1": "",
 		"q2": "375",
 		"q3": "750",
@@ -700,7 +700,7 @@ define((function(){const data=[
 		"type": "SPICES"
 	},
 	{
-		"name": "Kalonji (â‚¹ 450/kg)",
+		"name": "Kalonji (450/kg)",
 		"q1": "",
 		"q2": "56.25",
 		"q3": "112.5",
@@ -710,7 +710,7 @@ define((function(){const data=[
 		"type": "SPICES"
 	},
 	{
-		"name": "Hing Powder 50 Gms (â‚¹ 75)",
+		"name": "Hing Powder 50 Gms (75)",
 		"q1": "",
 		"q2": "9.375",
 		"q3": "18.75",
@@ -720,7 +720,7 @@ define((function(){const data=[
 		"type": "SPICES"
 	},
 	{
-		"name": "Hing Khada (â‚¹ 1500 kg)",
+		"name": "Hing Khada (1500 kg)",
 		"q1": "",
 		"q2": "187.5",
 		"q3": "375",
@@ -730,7 +730,7 @@ define((function(){const data=[
 		"type": "SPICES"
 	},
 	{
-		"name": "Dry Chilli (â‚¹ 200/kg)",
+		"name": "Dry Chilli (200/kg)",
 		"q1": "",
 		"q2": "25",
 		"q3": "50",
@@ -740,7 +740,7 @@ define((function(){const data=[
 		"type": "SPICES"
 	},
 	{
-		"name": "Tej Patta (â‚¹ 300/kg)",
+		"name": "Tej Patta (300/kg)",
 		"q1": "",
 		"q2": "37.5",
 		"q3": "75",
@@ -750,7 +750,7 @@ define((function(){const data=[
 		"type": "SPICES"
 	},
 	{
-		"name": "Biryani Phool (â‚¹ 1200/kg)",
+		"name": "Biryani Phool (1200/kg)",
 		"q1": "",
 		"q2": "150",
 		"q3": "300",
@@ -760,7 +760,7 @@ define((function(){const data=[
 		"type": "SPICES"
 	},
 	{
-		"name": "Karan Phool (â‚¹ 1000/kg)",
+		"name": "Karan Phool (1000/kg)",
 		"q1": "",
 		"q2": "125",
 		"q3": "250",
@@ -770,7 +770,7 @@ define((function(){const data=[
 		"type": "SPICES"
 	},
 	{
-		"name": "Kawab Chini (â‚¹ 4000/kg)",
+		"name": "Kawab Chini (4000/kg)",
 		"q1": "",
 		"q2": "500",
 		"q3": "1000",
@@ -780,7 +780,7 @@ define((function(){const data=[
 		"type": "SPICES"
 	},
 	{
-		"name": "Elachi Black (â‚¹ 1200/kg)",
+		"name": "Elachi Black (1200/kg)",
 		"q1": "",
 		"q2": "150",
 		"q3": "300",
@@ -790,7 +790,7 @@ define((function(){const data=[
 		"type": "SPICES"
 	},
 	{
-		"name": "Haldi Gotto (â‚¹ 95 kg)",
+		"name": "Haldi Gotto (95 kg)",
 		"q1": "",
 		"q2": "11.875",
 		"q3": "23.75",
@@ -800,7 +800,7 @@ define((function(){const data=[
 		"type": "SPICES"
 	},
 	{
-		"name": "Haldi Stick (â‚¹ 120/kg)",
+		"name": "Haldi Stick (120/kg)",
 		"q1": "",
 		"q2": "15",
 		"q3": "30",
@@ -810,7 +810,7 @@ define((function(){const data=[
 		"type": "SPICES"
 	},
 	{
-		"name": "Ajwain (â‚¹ 300/kg)",
+		"name": "Ajwain (300/kg)",
 		"q1": "",
 		"q2": "37.5",
 		"q3": "75",
@@ -820,7 +820,7 @@ define((function(){const data=[
 		"type": "SPICES"
 	},
 	{
-		"name": "Sonth (â‚¹ 580/kg)",
+		"name": "Sonth (580/kg)",
 		"q1": "",
 		"q2": "72.5",
 		"q3": "145",
@@ -830,7 +830,7 @@ define((function(){const data=[
 		"type": "SPICES"
 	},
 	{
-		"name": "Kesar 1 Gms (â‚¹ 160)",
+		"name": "Kesar 1 Gms (160)",
 		"q1": "",
 		"q2": "20",
 		"q3": "40",
@@ -840,7 +840,7 @@ define((function(){const data=[
 		"type": "SPICES"
 	},
 	{
-		"name": "Pan Methi (Kasturi Methi) (â‚¹ 250/kg)",
+		"name": "Pan Methi (Kasturi Methi) (250/kg)",
 		"q1": "",
 		"q2": "31.25",
 		"q3": "62.5",
@@ -850,7 +850,7 @@ define((function(){const data=[
 		"type": "SPICES"
 	},
 	{
-		"name": "Black Salt Powder(â‚¹ 80/kg)",
+		"name": "Black Salt Powder(80/kg)",
 		"q1": "",
 		"q2": "10",
 		"q3": "20",
@@ -860,7 +860,7 @@ define((function(){const data=[
 		"type": "SPICES"
 	},
 	{
-		"name": "Citric Acid (â‚¹ 200/kg)",
+		"name": "Citric Acid (200/kg)",
 		"q1": "",
 		"q2": "25",
 		"q3": "50",
@@ -870,7 +870,7 @@ define((function(){const data=[
 		"type": "SPICES"
 	},
 	{
-		"name": "Ajinomoto (â‚¹ 180/kg)",
+		"name": "Ajinomoto (180/kg)",
 		"q1": "",
 		"q2": "22.5",
 		"q3": "45",
@@ -880,7 +880,7 @@ define((function(){const data=[
 		"type": "SPICES"
 	},
 	{
-		"name": "Curd Chilly (â‚¹ 300/kg)",
+		"name": "Curd Chilly (300/kg)",
 		"q1": "",
 		"q2": "37.5",
 		"q3": "75",
@@ -890,7 +890,7 @@ define((function(){const data=[
 		"type": "SPICES"
 	},
 	{
-		"name": "Pooja Supari (â‚¹ 440/kg)",
+		"name": "Pooja Supari (440/kg)",
 		"q1": "",
 		"q2": "55",
 		"q3": "110",
@@ -900,7 +900,7 @@ define((function(){const data=[
 		"type": "SPICES"
 	},
 	{
-		"name": "Rawa Supari (â‚¹ 550/kg)",
+		"name": "Rawa Supari (550/kg)",
 		"q1": "",
 		"q2": "68.75",
 		"q3": "137.5",
@@ -910,7 +910,7 @@ define((function(){const data=[
 		"type": "SPICES"
 	},
 	{
-		"name": "Sugar (â‚¹ 39/kg)",
+		"name": "Sugar (39/kg)",
 		"q1": "",
 		"q2": "4.875",
 		"q3": "9.75",
@@ -920,7 +920,7 @@ define((function(){const data=[
 		"type": "GroceryItems"
 	},
 	{
-		"name": "Jaggery Kolhapuri (â‚¹ 65/kg)",
+		"name": "Jaggery Kolhapuri (65/kg)",
 		"q1": "",
 		"q2": "8.125",
 		"q3": "16.25",
@@ -930,7 +930,7 @@ define((function(){const data=[
 		"type": "GroceryItems"
 	},
 	{
-		"name": "Jaggery Powder Natural (â‚¹ 110/kg)",
+		"name": "Jaggery Powder Natural (110/kg)",
 		"q1": "",
 		"q2": "13.75",
 		"q3": "27.5",
@@ -950,7 +950,7 @@ define((function(){const data=[
 		"type": "GroceryItems"
 	},
 	{
-		"name": "Phutana Dal (â‚¹ 95/kg)",
+		"name": "Phutana Dal (95/kg)",
 		"q1": "",
 		"q2": "11.875",
 		"q3": "23.75",
@@ -960,7 +960,7 @@ define((function(){const data=[
 		"type": "GroceryItems"
 	},
 	{
-		"name": "Bhagar (â‚¹120/kg)",
+		"name": "Bhagar (120/kg)",
 		"q1": "",
 		"q2": "15",
 		"q3": "30",
@@ -970,7 +970,7 @@ define((function(){const data=[
 		"type": "GroceryItems"
 	},
 	{
-		"name": "Tamarind (Imli) (â‚¹ 280/kg)",
+		"name": "Tamarind (Imli) (280/kg)",
 		"q1": "",
 		"q2": "35",
 		"q3": "70",
@@ -980,7 +980,7 @@ define((function(){const data=[
 		"type": "GroceryItems"
 	},
 	{
-		"name": "Sendha Salt Powder (â‚¹ 60/kg)",
+		"name": "Sendha Salt Powder (60/kg)",
 		"q1": "",
 		"q2": "7.5",
 		"q3": "15",
@@ -990,7 +990,7 @@ define((function(){const data=[
 		"type": "GroceryItems"
 	},
 	{
-		"name": "Khopra (â‚¹220/kg)",
+		"name": "Khopra (220/kg)",
 		"q1": "",
 		"q2": "27.5",
 		"q3": "55",
@@ -1000,7 +1000,7 @@ define((function(){const data=[
 		"type": "GroceryItems"
 	},
 	{
-		"name": "Gota Khopra (â‚¹ 200/kg)",
+		"name": "Gota Khopra (200/kg)",
 		"q1": "",
 		"q2": "25",
 		"q3": "50",
@@ -1010,7 +1010,7 @@ define((function(){const data=[
 		"type": "GroceryItems"
 	},
 	{
-		"name": "Mota Misri (â‚¹ 80/kg)",
+		"name": "Mota Misri (80/kg)",
 		"q1": "",
 		"q2": "10",
 		"q3": "20",
@@ -1020,7 +1020,7 @@ define((function(){const data=[
 		"type": "GroceryItems"
 	},
 	{
-		"name": "Corn Flour (â‚¹ 60/kg)",
+		"name": "Corn Flour (60/kg)",
 		"q1": "",
 		"q2": "7.5",
 		"q3": "15",
@@ -1040,7 +1040,7 @@ define((function(){const data=[
 		"type": "GroceryItems"
 	},
 	{
-		"name": "Dali Gondh (â‚¹ 320/kg)",
+		"name": "Dali Gondh (320/kg)",
 		"q1": "",
 		"q2": "40",
 		"q3": "80",
@@ -1050,7 +1050,7 @@ define((function(){const data=[
 		"type": "GroceryItems"
 	},
 	{
-		"name": "Retha (Soap Nut) (â‚¹140/kg)",
+		"name": "Retha (Soap Nut) (140/kg)",
 		"q1": "",
 		"q2": "17.5",
 		"q3": "35",
@@ -1060,7 +1060,7 @@ define((function(){const data=[
 		"type": "GroceryItems"
 	},
 	{
-		"name": "Shikakai (â‚¹250/kg)",
+		"name": "Shikakai (250/kg)",
 		"q1": "",
 		"q2": "31.25",
 		"q3": "62.5",
@@ -1070,7 +1070,7 @@ define((function(){const data=[
 		"type": "GroceryItems"
 	},
 	{
-		"name": "Basmati Rice IndiaGate Classic (â‚¹ 180/kg)",
+		"name": "Basmati Rice IndiaGate Classic (180/kg)",
 		"q1": "",
 		"q2": "22.5",
 		"q3": "45",
@@ -1080,7 +1080,7 @@ define((function(){const data=[
 		"type": "GroceryItems"
 	},
 	{
-		"name": "Mota Poha (â‚¹ 55/kg)",
+		"name": "Mota Poha (55/kg)",
 		"q1": "",
 		"q2": "6.875",
 		"q3": "13.75",
@@ -1090,7 +1090,7 @@ define((function(){const data=[
 		"type": "PohaandPappad"
 	},
 	{
-		"name": "Fine Poha (â‚¹ 64/kg)",
+		"name": "Fine Poha (64/kg)",
 		"q1": "",
 		"q2": "8",
 		"q3": "16",
@@ -1100,7 +1100,7 @@ define((function(){const data=[
 		"type": "PohaandPappad"
 	},
 	{
-		"name": "Murmura (â‚¹45 /500 Gms Box)",
+		"name": "Murmura (45 /500 Gms Box)",
 		"q1": "",
 		"q2": "5.625",
 		"q3": "11.25",
@@ -1110,7 +1110,7 @@ define((function(){const data=[
 		"type": "PohaandPappad"
 	},
 	{
-		"name": "Makkai Poha 400Gms (â‚¹ 80/kg)",
+		"name": "Makkai Poha 400Gms (80/kg)",
 		"q1": "",
 		"q2": "10",
 		"q3": "20",
@@ -1120,7 +1120,7 @@ define((function(){const data=[
 		"type": "PohaandPappad"
 	},
 	{
-		"name": "Frymes (â‚¹ 90/kg)",
+		"name": "Frymes (90/kg)",
 		"q1": "",
 		"q2": "11.25",
 		"q3": "22.5",
@@ -1130,7 +1130,7 @@ define((function(){const data=[
 		"type": "PohaandPappad"
 	},
 	{
-		"name": "Gold Finger (â‚¹ 60/kg)",
+		"name": "Gold Finger (60/kg)",
 		"q1": "",
 		"q2": "7.5",
 		"q3": "15",
@@ -1140,7 +1140,7 @@ define((function(){const data=[
 		"type": "PohaandPappad"
 	},
 	{
-		"name": "Meal Maker (Soya Chunks) (â‚¹40/200gms box)",
+		"name": "Meal Maker (Soya Chunks) (40/200gms box)",
 		"q1": "",
 		"q2": "25",
 		"q3": "50",
@@ -1150,7 +1150,7 @@ define((function(){const data=[
 		"type": "PohaandPappad"
 	},
 	{
-		"name": "Soya Granuels (â‚¹44/200gm Box)",
+		"name": "Soya Granuels (44/200gm Box)",
 		"q1": "",
 		"q2": "27.5",
 		"q3": "55",
@@ -1160,7 +1160,7 @@ define((function(){const data=[
 		"type": "PohaandPappad"
 	},
 	{
-		"name": "Papad (Appalam) (â‚¹ 250/kg)",
+		"name": "Papad (Appalam) (250/kg)",
 		"q1": "",
 		"q2": "31.25",
 		"q3": "62.5",
@@ -1170,7 +1170,7 @@ define((function(){const data=[
 		"type": "PohaandPappad"
 	},
 	{
-		"name": "Papad (Marwadi) (â‚¹ 240/kg)",
+		"name": "Papad (Marwadi) (240/kg)",
 		"q1": "",
 		"q2": "30",
 		"q3": "60",
@@ -1180,7 +1180,7 @@ define((function(){const data=[
 		"type": "PohaandPappad"
 	},
 	{
-		"name": "Aashirwad Aata 5kg bag (â‚¹",
+		"name": "Aashirwad Aata 5kg bag (119/kg)",
 		"q1": "",
 		"q2": "14.87",
 		"q3": "29.75",
@@ -1190,7 +1190,7 @@ define((function(){const data=[
 		"type": "GrainsandCereals"
 	},
 	{
-		"name": "Upma Rava(Bombay Rava) (â‚¹ 44/kg)",
+		"name": "Upma Rava(Bombay Rava) (44/kg)",
 		"q1": "",
 		"q2": "5.5",
 		"q3": "11",
@@ -1200,7 +1200,7 @@ define((function(){const data=[
 		"type": "GrainsandCereals"
 	},
 	{
-		"name": "Idly Rava (â‚¹ 38/kg)",
+		"name": "Idly Rava (38/kg)",
 		"q1": "",
 		"q2": "4.75",
 		"q3": "9.5",
@@ -1210,7 +1210,7 @@ define((function(){const data=[
 		"type": "GrainsandCereals"
 	},
 	{
-		"name": "Kesari Rawa (â‚¹ 52/kg)",
+		"name": "Kesari Rawa (52/kg)",
 		"q1": "",
 		"q2": "6.5",
 		"q3": "13",
@@ -1220,7 +1220,7 @@ define((function(){const data=[
 		"type": "GrainsandCereals"
 	},
 	{
-		"name": "Medium Wheat Rawa (daliya) (â‚¹ 52/kg)",
+		"name": "Medium Wheat Rawa (daliya) (52/kg)",
 		"q1": "",
 		"q2": "6.5",
 		"q3": "13",
@@ -1230,7 +1230,7 @@ define((function(){const data=[
 		"type": "GrainsandCereals"
 	},
 	{
-		"name": "Mota Wheat Rawa (lapsi)(â‚¹ 52/kg)",
+		"name": "Mota Wheat Rawa (lapsi)(52/kg)",
 		"q1": "",
 		"q2": "6.5",
 		"q3": "13",
@@ -1240,7 +1240,7 @@ define((function(){const data=[
 		"type": "GrainsandCereals"
 	},
 	{
-		"name": "Besan (â‚¹ 84/kg)",
+		"name": "Besan (84/kg)",
 		"q1": "",
 		"q2": "10.5",
 		"q3": "21",
@@ -1250,7 +1250,7 @@ define((function(){const data=[
 		"type": "GrainsandCereals"
 	},
 	{
-		"name": "Maida (â‚¹ 44/kg)",
+		"name": "Maida (44/kg)",
 		"q1": "",
 		"q2": "5.5",
 		"q3": "11",
@@ -1260,7 +1260,7 @@ define((function(){const data=[
 		"type": "GrainsandCereals"
 	},
 	{
-		"name": "Ragi (â‚¹ 50/kg)",
+		"name": "Ragi (50/kg)",
 		"q1": "",
 		"q2": "6.25",
 		"q3": "12.5",
@@ -1270,7 +1270,7 @@ define((function(){const data=[
 		"type": "GrainsandCereals"
 	},
 	{
-		"name": "Raagi Atta (â‚¹ 52/kg)",
+		"name": "Raagi Atta (52/kg)",
 		"q1": "",
 		"q2": "6.5",
 		"q3": "13",
@@ -1280,7 +1280,7 @@ define((function(){const data=[
 		"type": "GrainsandCereals"
 	},
 	{
-		"name": "Rice Atta (â‚¹ 40/kg)",
+		"name": "Rice Atta (40/kg)",
 		"q1": "",
 		"q2": "5",
 		"q3": "10",
@@ -1290,7 +1290,7 @@ define((function(){const data=[
 		"type": "GrainsandCereals"
 	},
 	{
-		"name": "Bajra (â‚¹ 47/kg)",
+		"name": "Bajra (47/kg)",
 		"q1": "",
 		"q2": "5.875",
 		"q3": "11.75",
@@ -1300,7 +1300,7 @@ define((function(){const data=[
 		"type": "GrainsandCereals"
 	},
 	{
-		"name": "Bajri Atta (â‚¹ 60/kg)",
+		"name": "Bajri Atta (60/kg)",
 		"q1": "",
 		"q2": "7.5",
 		"q3": "15",
@@ -1320,7 +1320,7 @@ define((function(){const data=[
 		"type": "GrainsandCereals"
 	},
 	{
-		"name": "Jawari Atta (â‚¹ 62/kg)",
+		"name": "Jawari Atta (62/kg)",
 		"q1": "",
 		"q2": "7.75",
 		"q3": "15.5",
@@ -1330,7 +1330,7 @@ define((function(){const data=[
 		"type": "GrainsandCereals"
 	},
 	{
-		"name": "Makkai Atta (â‚¹ 65/kg)",
+		"name": "Makkai Atta (65/kg)",
 		"q1": "",
 		"q2": "8.125",
 		"q3": "16.25",
@@ -1340,7 +1340,7 @@ define((function(){const data=[
 		"type": "GrainsandCereals"
 	},
 	{
-		"name": "Barley (â‚¹ 70/kg)",
+		"name": "Barley (70/kg)",
 		"q1": "",
 		"q2": "8.75",
 		"q3": "17.5",
@@ -1350,7 +1350,7 @@ define((function(){const data=[
 		"type": "GrainsandCereals"
 	},
 	{
-		"name": "Flax Seeds (Alsi) (â‚¹99/kg)",
+		"name": "Flax Seeds (Alsi) (99/kg)",
 		"q1": "",
 		"q2": "12.375",
 		"q3": "24.75",
@@ -1360,7 +1360,7 @@ define((function(){const data=[
 		"type": "MouthFreshner"
 	},
 	{
-		"name": "Cherry (â‚¹200/kg)",
+		"name": "Cherry (200/kg)",
 		"q1": "",
 		"q2": "25",
 		"q3": "50",
@@ -1370,7 +1370,7 @@ define((function(){const data=[
 		"type": "MouthFreshner"
 	},
 	{
-		"name": "Mota Sounf (â‚¹ 250/kg)",
+		"name": "Mota Sounf (250/kg)",
 		"q1": "",
 		"q2": "31.25",
 		"q3": "62.5",
@@ -1380,7 +1380,7 @@ define((function(){const data=[
 		"type": "MouthFreshner"
 	},
 	{
-		"name": "Diamond Misri (â‚¹ 80/kg)",
+		"name": "Diamond Misri (80/kg)",
 		"q1": "",
 		"q2": "10",
 		"q3": "20",
@@ -1390,7 +1390,7 @@ define((function(){const data=[
 		"type": "MouthFreshner"
 	},
 	{
-		"name": "Small Saunf (â‚¹ 240/kg)",
+		"name": "Small Saunf (240/kg)",
 		"q1": "",
 		"q2": "30",
 		"q3": "60",
@@ -1400,7 +1400,7 @@ define((function(){const data=[
 		"type": "MouthFreshner"
 	},
 	{
-		"name": "Sukhmukh (Dhana Dal) (â‚¹ 240/kg)",
+		"name": "Sukhmukh (Dhana Dal) (240/kg)",
 		"q1": "",
 		"q2": "30",
 		"q3": "60",
@@ -1410,7 +1410,7 @@ define((function(){const data=[
 		"type": "MouthFreshner"
 	},
 	{
-		"name": "Sweet Saunf (â‚¹ 100/kg)",
+		"name": "Sweet Saunf (100/kg)",
 		"q1": "",
 		"q2": "12.5",
 		"q3": "25",
@@ -1420,7 +1420,7 @@ define((function(){const data=[
 		"type": "MouthFreshner"
 	},
 	{
-		"name": "Tuti Fruti (â‚¹ 120/kg)",
+		"name": "Tuti Fruti (120/kg)",
 		"q1": "",
 		"q2": "15",
 		"q3": "30",
@@ -1430,7 +1430,7 @@ define((function(){const data=[
 		"type": "MouthFreshner"
 	},
 	{
-		"name": "Khopra Powder (â‚¹ 240/kg)",
+		"name": "Khopra Powder (240/kg)",
 		"q1": "",
 		"q2": "30",
 		"q3": "60",
@@ -1440,7 +1440,7 @@ define((function(){const data=[
 		"type": "MouthFreshner"
 	},
 	{
-		"name": "India Gate Brown Sona Masoori (â‚¹119/kg)",
+		"name": "India Gate Brown Sona Masoori (119/kg)",
 		"q1": "",
 		"q2": "14.875",
 		"q3": "29.75",
@@ -1450,7 +1450,7 @@ define((function(){const data=[
 		"type": "RICE"
 	},
 	{
-		"name": "Sona Masoori Rice (old) (â‚¹47/kg)",
+		"name": "Sona Masoori Rice (old) (47/kg)",
 		"q1": "",
 		"q2": "5.875",
 		"q3": "11.75",
@@ -1460,7 +1460,7 @@ define((function(){const data=[
 		"type": "RICE"
 	},
 	{
-		"name": "Sona Masoori Rice (25 kg bag)(â‚¹44/kg)",
+		"name": "Sona Masoori Rice (25 kg bag)(44/kg)",
 		"q1": "",
 		"q2": "5.5",
 		"q3": "11",
@@ -1470,7 +1470,7 @@ define((function(){const data=[
 		"type": "RICE"
 	},
 	{
-		"name": "HMT rice (â‚¹51/kg)",
+		"name": "HMT rice (51/kg)",
 		"q1": "",
 		"q2": "6.375",
 		"q3": "12.75",
@@ -1480,7 +1480,7 @@ define((function(){const data=[
 		"type": "RICE"
 	},
 	{
-		"name": "Kollam Rice (â‚¹54/kg)",
+		"name": "Kollam Rice (54/kg)",
 		"q1": "",
 		"q2": "6.75",
 		"q3": "13.5",
@@ -1490,7 +1490,7 @@ define((function(){const data=[
 		"type": "RICE"
 	},
 	{
-		"name": "Sona Masoori Steam Rice (â‚¹42/kg)",
+		"name": "Sona Masoori Steam Rice (42/kg)",
 		"q1": "",
 		"q2": "5.25",
 		"q3": "10.5",
@@ -1500,7 +1500,7 @@ define((function(){const data=[
 		"type": "RICE"
 	},
 	{
-		"name": "Basmati Rice India Gate brown (â‚¹139/kg)",
+		"name": "Basmati Rice India Gate brown (139/kg)",
 		"q1": "",
 		"q2": "17.375",
 		"q3": "34.75",
@@ -1510,7 +1510,7 @@ define((function(){const data=[
 		"type": "RICE"
 	},
 	{
-		"name": "GoldDrop Sunflower Oil (â‚¹115/-)",
+		"name": "GoldDrop Sunflower Oil (115/-)",
 		"q1": "",
 		"q2": "14.375",
 		"q3": "28.75",
@@ -1520,7 +1520,7 @@ define((function(){const data=[
 		"type": "Oil"
 	},
 	{
-		"name": "SunDrop Sunflower Oil (â‚¹189/-)",
+		"name": "SunDrop Sunflower Oil (189/-)",
 		"q1": "",
 		"q2": "23.625",
 		"q3": "47.25",
@@ -1530,7 +1530,7 @@ define((function(){const data=[
 		"type": "Oil"
 	},
 	{
-		"name": "Freedom Sunflower OIl (â‚¹ 110/-)",
+		"name": "Freedom Sunflower OIl (110/-)",
 		"q1": "",
 		"q2": "13.75",
 		"q3": "27.5",
@@ -1540,7 +1540,7 @@ define((function(){const data=[
 		"type": "Oil"
 	},
 	{
-		"name": "Vijaya Ghee (â‚¹470/-)",
+		"name": "Vijaya Ghee (470/-)",
 		"q1": "",
 		"q2": "58.75",
 		"q3": "117.5",
