@@ -2,9 +2,9 @@ const phone="+917093011926",inventory=require("inventory"),quantities={q3:"250g"
     const currentOrders = window.currentOrders;
     let message = `Hello, I'm ${
         document.getElementById('name').value
-    } \nMy Address: ${
+    } \n*My Address:* ${
         document.getElementById('address').value
-    } \nHere is the list of items I would like to purchase: \n`;
+    } \n *Here is the list of items I would like to purchase:* \n`;
     let message1 = `Your order is: \n`;
     if (
         (currentOrders.forEach((item) => {
