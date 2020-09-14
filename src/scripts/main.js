@@ -15,12 +15,32 @@ const multipliers = {
     q5: 1
 };
 const kiloRateId = 'q5';
-const categories = ['dryfruit', 'spices', 'grocery'];
-const categoryDisplayNames = {
-    dryfruit: 'Dry Fruits',
-    spices: 'Spices',
-    grocery: 'Groceries'
-};
+(categories = [
+    'DRYFRUITS',
+    'Seeds',
+    'Dals',
+    'PULSES',
+    'SPICES',
+    'GroceryItems',
+    'PohaandPappad',
+    'GrainsandCereals',
+    'MouthFreshner',
+    'RICE',
+    'Oil'
+]),
+    (categoryDisplayNames = {
+        DRYFRUITS: 'DRY FRUITS',
+        Seeds: 'Seeds',
+        Dals: 'Dals',
+        PULSES: 'PULSES/BEANS/LEGUMES',
+        SPICES: 'SPICES',
+        GroceryItems: 'Grocery Items',
+        PohaandPappad: 'Poha and Pappad',
+        GrainsandCereals: 'Grains and Cereals',
+        MouthFreshner: 'Mukhwas /  Mouth Freshner',
+        RICE: 'RICE',
+        Oil: 'Oil/Ghee'
+    });
 
 $(document).ready(function () {
     window.currentOrders = [];
@@ -58,6 +78,7 @@ function getAccordionElement(category, index) {
     cardDiv.innerHTML = `
             <div class="card-header" data-toggle="collapse" data-target="#collapse_${index}">
                 ${getCategoryDisplayName(category)}
+                <span class="badge badge-success float-right" style="width20%; height:120%">Click Here</span>
             </div>
             <div
                 id="collapse_${index}"
@@ -189,9 +210,9 @@ function generateCart() {
     const currentOrders = window.currentOrders;
     let message = `Hello, I'm ${
         document.getElementById('name').value
-    } \nMy Address: ${
+    } \n*My Address:* ${
         document.getElementById('address').value
-    } \nHere is the list of items I would like to purchase: \n`;
+    } \n*Here is the list of items I would like to purchase:* \n`;
     let message1 = `Your order is: \n`;
     if (
         (currentOrders.forEach((item) => {
@@ -204,7 +225,9 @@ function generateCart() {
         return window.confirm('There are no orders placed'), '';
     {
         if (!window.confirm('' + message1)) return;
-        const link = `https://api.whatsapp.com/send?phone=${phone}&text=${message}`;
+        const link = `https://api.whatsapp.com/send?phone=${phone}&text=${encodeURI(
+            message
+        )}`;
         window.open(link, '_blank');
     }
     return message;
@@ -330,4 +353,8 @@ function formValidation() {
     }
 
     form.classList.add('was-validated');
+}
+
+function reload() {
+    window.location.reload();
 }

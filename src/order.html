@@ -205,7 +205,7 @@
                         onkeyup="searchTable(this.value)"
                     />
                 </div>
-                <div class="col-12 col-md-4 offset-md-2">
+                <div class="col-12 col-md-3">
                     <div class="card">
                         <div class="card-body">
                             <div>
@@ -214,13 +214,37 @@
                         </div>
                     </div>
                 </div>
+                <div class="col-12 col-md-5">
+                    <div class="card">
+                        <div class="card-body">
+                            <marquee
+                                >50/- delivery charge applicable for orders
+                                below 1000/-</marquee
+                            >
+                        </div>
+                    </div>
+                </div>
             </div>
             <div class="accordion-container acc" id="accordion"></div>
-            <div>
-                <button class="button btn" onclick="formValidation()">
-                    Order on Whatsapp <i class="fa fa-whatsapp fa-x"></i>
-                </button>
+            <br />
+            <div class="row">
+                <div class="col-12 col-md-1">
+                    <button class="button bg-primary" onclick="reload()">
+                        Reset
+                    </button>
+                    <div class="d-block d-sm-none">
+                        <br />
+                    </div>
+                </div>
+                <div class="col-12 col-md-3">
+                    <button class="button" onclick="formValidation()">
+                        Order on Whatsapp
+                        <i class="fa fa-whatsapp fa-inverse fa-x"></i>
+                    </button>
+                </div>
             </div>
+            <br />
+            <br />
         </div>
         <script data-main="config" src="scripts/require.js"></script>
     </body>
