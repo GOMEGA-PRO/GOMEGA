@@ -11,7 +11,7 @@
         "imagemin": "imagemin src/assets/* --out-dir=docs/assets",
         "usemin": "usemin src/index.html -d docs --htmlmin -o docs/index.html && usemin src/order.html -d docs --htmlmin -o docs/order.html",
         "copy-require": "copyfiles -f src/scripts/require.js docs/scripts/",
-        "terser": "terser src/scripts/main.js -c -o docs/scripts/main.js && terser src/scripts/inventory.js -c -o docs/scripts/inventory.js",
+        "terser": "terser src/scripts/main.js -c -o docs/scripts/main.js && terser src/scripts/inventory.js -c -o docs/scripts/inventory.js && terser src/config.js -c -o docs/config.js",
         "min-js": "npm run copy-require && npm run terser",
         "build": "npm run clean && npm run usemin && npm run imagemin  && npm run min-js",
         "build-zip": "bestzip build.zip docs/*"
