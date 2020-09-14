@@ -187,25 +187,26 @@ function searchTable(queryString) {
 
 function generateCart() {
     const currentOrders = window.currentOrders;
-
-    const name = document.getElementById('name').value;
-    const address = document.getElementById('address').value;
-    let message = `Hello, I'm ${name} \nMy Address: ${address} \nHere is the list of items I would like to purchase: \n`;
-    currentOrders.forEach((item) => {
-        const name = inventory.getName(item.id);
-        message += `${name} : ${item.quantity}Kg \n`;
-    });
-    if (currentOrders.length === 0) {
-        window.confirm('There are no orders placed');
-        return '';
-    } else {
-        if (!window.confirm(`${message}`)) {
-            return;
-        }
+    let message = `Hello, I'm ${
+        document.getElementById('name').value
+    } \nMy Address: ${
+        document.getElementById('address').value
+    } \nHere is the list of items I would like to purchase: \n`;
+    let message1 = `Your order is: \n`;
+    if (
+        (currentOrders.forEach((item) => {
+            const name = inventory.getName(item.id);
+            message += `${name} : ${item.quantity}Kg \n`;
+            message1 += `${name} : ${item.quantity}Kg \n`;
+        }),
+        0 === currentOrders.length)
+    )
+        return window.confirm('There are no orders placed'), '';
+    {
+        if (!window.confirm('' + message1)) return;
         const link = `https://api.whatsapp.com/send?phone=${phone}&text=${message}`;
         window.open(link, '_blank');
     }
-
     return message;
 }
 
