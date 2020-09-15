@@ -8,7 +8,7 @@ define(function () {
             q4: '470',
             q5: '940',
             id: '1',
-            type: 'DRY FRUITS '
+            type: 'DRYFRUITS'
         },
         {
             name: 'Kaju Regular (820/Kg)',
