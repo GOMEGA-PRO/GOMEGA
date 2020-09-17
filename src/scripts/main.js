@@ -1,4 +1,4 @@
-const phone = '+917093011926';
+const phone = '+918309582295';
 const inventory = require('inventory');
 const quantities = {
     // q1: '50g',
