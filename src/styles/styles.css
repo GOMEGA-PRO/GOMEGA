@@ -20,11 +20,11 @@
     background: #c2ef7e;
 }
 .menu-item {
-    font-size: 18px;
+    font-size: 20px;
     margin-right: 15px;
     font-family: Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif;
     padding: 20px !important;
-    color: white !important;
+    font-weight: bold;
 }
 .container {
     display: flex;
